@@ -1,0 +1,2352 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-149d2cbec92ee9666e842c3a40efc9b917be3baef0722c69d309f61a47c1cd10.ico" />
+  <title>Sujood.Co</title>
+  <link rel="stylesheet" media="all" href="/assets/application-56303d97fff4600a1a55f1a4656d36dcb478b9dc08892fddb71e504cd4536918.css" data-turbolinks-track="true" />
+  <script src="/assets/application-e7b68636adb02a063afee747f754891cd0dafa52e5b5989c915f69b1845d4304.js" data-turbolinks-track="true"></script>
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="MrIjIPQcOR386bJb0SVFPURvsY4nHG1l/9dOMy6rBBwo7zwMz2/12VtroReRyCw3qsbpBZKMYdPdHM3zJUlArA==" />
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+    <script src="//cdn.quilljs.com/1.3.6/quill.js"></script>
+  <script src="//cdn.quilljs.com/1.3.6/quill.min.js"></script>
+
+  <!-- Theme included stylesheets -->
+  <link rel="stylesheet" href="//cdn.quilljs.com/1.3.6/quill.snow.css">
+  <link rel="stylesheet" href="//cdn.quilljs.com/1.3.6/quill.bubble.css">
+
+  <script src="//cdn.quilljs.com/1.3.6/quill.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145149489-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-145149489-1');
+  </script>
+
+</head>
+
+    <body user-id="">
+
+        <style>
+    #menu {
+        text-align: center;
+    }
+
+      .users-only {
+        display: none;
+      }
+
+
+</style>
+
+
+  <!-- Navigation -->
+<nav id="menu">
+  <header>
+    <ul>
+      <li>
+        <p style="color:white; font-family: 'Ubuntu'; ">Share Sujood.Co</p>
+        <div class='social-share-button' data-title='Duas for every feeling. #SujoodCo' data-img=''
+data-url='' data-desc='' data-via=''>
+<a rel="nofollow " data-site="twitter" class="ssb-icon ssb-twitter" onclick="return SocialShareButton.share(this);" title="Share to Twitter" href="#"></a>
+<a rel="nofollow " data-site="facebook" class="ssb-icon ssb-facebook" onclick="return SocialShareButton.share(this);" title="Share to Facebook" href="#"></a>
+<a rel="nofollow " data-site="google_plus" class="ssb-icon ssb-google_plus" onclick="return SocialShareButton.share(this);" title="Share to Google+" href="#"></a>
+<a rel="nofollow " data-site="tumblr" class="ssb-icon ssb-tumblr" onclick="return SocialShareButton.share(this);" title="Share to Tumblr" href="#"></a>
+<a rel="nofollow " data-site="pinterest" class="ssb-icon ssb-pinterest" onclick="return SocialShareButton.share(this);" title="Share to Pinterest" href="#"></a>
+<a rel="nofollow " data-site="email" class="ssb-icon ssb-email" onclick="return SocialShareButton.share(this);" title="Share to Email" href="#"></a>
+</div></li>
+<li>
+        <a href="https://twitter.com/aniqralifeforme" class="twitter-follow-button" data-show-count="false">Follow Me: @aniqralifeforme</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </li>
+
+        <div class="non-users">
+          <li><h2><a href="/prayers">Home</a></h2></li>
+          <li onclick="credsModal()" style="color: #fff; cursor: pointer;"><h2>Sign In</li>
+        </div>
+        <div class="users-only">
+          <p id="user">Signed in as: <br><span></span></p>
+          <li><h2><a data-method="get" href="/users/sign_out">Sign out</a></h2></li>
+        </div>
+
+    <li><h2><a href="/guide">Guide</a></h2></li>
+
+
+
+      <div class="non-users">
+        <li><h2>
+        <a href="javascript:void(0)" onclick="credsModal()" class="grey" data-toggle="heartbits" data-placement="bottom" title="Sign Up to Access!">My Favorites</a>
+        </h2></li>
+
+        <li><h2>
+        <a href="javascript:void(0)" onclick="credsModal()" class="grey" data-toggle="heartbits" data-placement="bottom" title="Sign Up to Access!">HeartBits</a>
+        </h2></li>
+      </div>
+      <div class="users-only">
+        <li><h2>
+        <a href="/favorites" data-toggle="favorites" data-placement="bottom" title="See Collection">My Favorites</a>
+        </h2></li>
+
+        <li><h2>
+        <a href="/heartbits" data-toggle="heartbits" data-placement="bottom" title="Talk To Allah!">HeartBits</a>
+        </h2></li>
+      </div>
+  
+
+
+    <li><h2>
+      <a href="http://www.natadarrab.com" data-toggle="request" data-placement="bottom" title="Arabic Program">"Learn Arabic?"</a>
+      </h2></li>
+
+    <li>
+
+      <a href="//fast.wistia.net/embed/iframe/ovog2co03u?popover=true" class="wistia-popover[height=455,playerColor=9b59b6,width=640]"><img src="https://embed-ssl.wistia.com/deliveries/9baae6a29783a6832b4003ab7703f0f64cf1351f.jpg?image_play_button=true&image_play_button_color=9b59b6e0&image_crop_resized=150x100" alt="" /></a>
+      <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script></li>
+
+    <li>
+      <p style="color:white; font-family: 'Ubuntu'; font-style: italic; ">A Project By</p>
+      <a href="http://iqra.life"><img src="/assets/iqralife-2b418b895263d77f7c00c2551472df37bfae012dd4b5a75b9dbafcbf453664e2.png" id="iqralife"/></a></li>
+    </ul>
+  </header>
+</nav>
+
+
+<script>
+   $(document).ready(function() {
+      var $menu = $("#menu").mmenu({
+         // options
+      }, {
+         // configuration
+         offCanvas: {
+            pageNodetype: "#panel",
+            moveBackground: false
+         },
+      });
+
+
+
+        var API = $menu.data( "mmenu" );
+
+        API.bind( "opening", function() {
+            
+            $('#panel').foggy({
+                    blurRadius: 7,          // In pixels.
+                    opacity: 1,           // Falls back to a filter for IE.
+                    cssFilterSupport: true  // Use "-webkit-filter" where available.
+            }); 
+
+        });
+
+        API.bind( "closing", function() {
+            
+            $('#panel').foggy(false); 
+
+        });
+
+
+
+    });
+
+
+</script>
+        <main id="panel">
+
+            <!--  -->
+            <!--  -->
+
+
+
+            <div class="Fixed">
+            <a href="#menu"><i class="fa fa-bars fa-3x toggle-button"></i>
+              <img src="/assets/encourage-04c32f57cf303f6857f1817cae39a0f627b930bd027e6a70be0c5d6718d05bab.png" id="encourage"/><br>
+              <img src="/assets/encouragesmall-ded8b95cae0926277b3d1af4a2a7f76d454ca9792d65663154cd6eca007818d7.png" id="encouragesmall"/></a><br>
+            </div>
+
+            <style>
+
+    #main-logo {
+        display: table;
+        margin: 0 auto;
+        max-width: 785px;
+    }
+
+    #main-logo img {
+    max-width: 100%;
+    }
+
+    #header {
+        padding-top: 100px;
+    }
+
+</style>
+<header id="header">
+    <a href="/" id="main-logo"><img src="/assets/logo-9d7d30c5f71c63db7a55ee0edd47b9a88e4b995920af344bc772dc21ab8b9a51.png" /></a>
+</header>
+
+
+
+            <br>
+            
+            <div id="midwrap">
+              <style>
+  #search {
+    max-width: 55%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .toggle-content {
+    display: none;
+  }
+</style>
+
+<div id="search">
+  <h1>I&#39;m feeling</h1>
+
+  <select name="tags" id="tags" onchange="changeCategory(this.value)"><option value="">[Select Emotion]</option><option value="angry">angry</option>
+<option value="anticipation">anticipation</option>
+<option value="anxious">anxious</option>
+<option value="aroused">aroused</option>
+<option value="confident">confident</option>
+<option value="confused">confused</option>
+<option value="content">content</option>
+<option value="curious">curious</option>
+<option value="defeated">defeated</option>
+<option value="depressed">depressed</option>
+<option value="desire">desire</option>
+<option value="desperate">desperate</option>
+<option value="determined">determined</option>
+<option value="disbelief">disbelief</option>
+<option value="doubtful">doubtful</option>
+<option value="envious">envious</option>
+<option value="grateful">grateful</option>
+<option value="guilty">guilty</option>
+<option value="happy">happy</option>
+<option value="hatred">hatred</option>
+<option value="humiliated">humiliated</option>
+<option value="hurt">hurt</option>
+<option value="impatient">impatient</option>
+<option value="indecisive">indecisive</option>
+<option value="insecure">insecure</option>
+<option value="irritated">irritated</option>
+<option value="jealous">jealous</option>
+<option value="lazy">lazy</option>
+<option value="lonely">lonely</option>
+<option value="love">love</option>
+<option value="nervous">nervous</option>
+<option value="nostalgic">nostalgic</option>
+<option value="offended">offended</option>
+<option value="overwhelmed">overwhelmed</option>
+<option value="peaceful">peaceful</option>
+<option value="rage">rage</option>
+<option value="regretful">regretful</option>
+<option value="sad">sad</option>
+<option value="satisfied">satisfied</option>
+<option value="uncertain">uncertain</option>
+<option value="uneasy">uneasy</option>
+<option value="weak">weak</option></select>
+</div>
+
+
+    <a id="demo01" class="hidden" href="#animatedModal">DEMO01</a>
+
+<section class="prayers-section">
+  
+
+      <div class="prayer" data-id="7" category="disbelief">
+
+    
+    
+        <h1 class="prayer-title"  url="/prayers/7" key="title">
+            &quot;Fill my heart&quot;
+        </h1>
+        
+        <p class="arabic"  url="/prayers/7" key="arabic">اللهم املأ قلبى بحبك
+</p>
+                        <p class="transliteration"  url="/prayers/7" key="transliteration">
+                            Allahumma imla&#39; qalbee bihubbik.
+                        </p>
+        <p class="translation"  url="/prayers/7" key="translation">Oh Allah fill my heart with your love.</p>
+
+
+            <section class="audio-box" src="">
+                <audio controls>
+                <source src="" type="audio/mpeg">
+                </audio><br>
+                <a href="" class="hidden" data-toggle="download" data-placement="bottom" title="Download Du'a Audio Clip"><br><i class="fa fa-download fa-4x" style="margin-bottom: 0.1em;"></i></a><br>
+            </section>
+            
+
+
+            <br>
+                <i class="fa fa-heart fa-5x toggle-heart" data-id="7"></i>
+                <p>133 
+                    likes
+                </p><br>
+
+                <div class='social-share-button' data-title='Oh Allah fill my heart with your love.
+اللهم املأ قلبى بحبك
+' data-img=''
+data-url='https://www.sujood.co/#id=7' data-desc='' data-via=''>
+<a rel="nofollow " data-site="twitter" class="ssb-icon ssb-twitter" onclick="return SocialShareButton.share(this);" title="Share to Twitter" href="#"></a>
+<a rel="nofollow " data-site="facebook" class="ssb-icon ssb-facebook" onclick="return SocialShareButton.share(this);" title="Share to Facebook" href="#"></a>
+<a rel="nofollow " data-site="google_plus" class="ssb-icon ssb-google_plus" onclick="return SocialShareButton.share(this);" title="Share to Google+" href="#"></a>
+<a rel="nofollow " data-site="tumblr" class="ssb-icon ssb-tumblr" onclick="return SocialShareButton.share(this);" title="Share to Tumblr" href="#"></a>
+<a rel="nofollow " data-site="pinterest" class="ssb-icon ssb-pinterest" onclick="return SocialShareButton.share(this);" title="Share to Pinterest" href="#"></a>
+<a rel="nofollow " data-site="email" class="ssb-icon ssb-email" onclick="return SocialShareButton.share(this);" title="Share to Email" href="#"></a>
+</div>
+
+</div>
+
+      <div class="prayer" data-id="26" category="impatient">
+
+    
+    
+        <h1 class="prayer-title"  url="/prayers/26" key="title">
+            &quot;Teach Me How To Win This&quot;
+        </h1>
+        
+        <p class="arabic"  url="/prayers/26" key="arabic">يا صبور صبّرني على ما بلوتني وامتحنتني</p>
+                        <p class="transliteration"  url="/prayers/26" key="transliteration">
+                            Ya Saboor Sabbirnee 3alaa maa balautanee wa imtaHantanee.
+                        </p>
+        <p class="translation"  url="/prayers/26" key="translation">Oh The Most Patient, enable me to be patient upon whatever you afflict and test me with.  </p>
+
+
+            <section class="audio-box" src="">
+                <audio controls>
+                <source src="" type="audio/mpeg">
+                </audio><br>
+                <a href="" class="hidden" data-toggle="download" data-placement="bottom" title="Download Du'a Audio Clip"><br><i class="fa fa-download fa-4x" style="margin-bottom: 0.1em;"></i></a><br>
+            </section>
+            
+
+
+            <br>
+                <i class="fa fa-heart fa-5x toggle-heart" data-id="26"></i>
+                <p>118 
+                    likes
+                </p><br>
+
+                <div class='social-share-button' data-title='Oh The Most Patient, enable me to be patient upon whatever you afflict and test me with.  
+يا صبور صبّرني على ما بلوتني وامتحنتني' data-img=''
+data-url='https://www.sujood.co/#id=26' data-desc='' data-via=''>
+<a rel="nofollow " data-site="twitter" class="ssb-icon ssb-twitter" onclick="return SocialShareButton.share(this);" title="Share to Twitter" href="#"></a>
+<a rel="nofollow " data-site="facebook" class="ssb-icon ssb-facebook" onclick="return SocialShareButton.share(this);" title="Share to Facebook" href="#"></a>
+<a rel="nofollow " data-site="google_plus" class="ssb-icon ssb-google_plus" onclick="return SocialShareButton.share(this);" title="Share to Google+" href="#"></a>
+<a rel="nofollow " data-site="tumblr" class="ssb-icon ssb-tumblr" onclick="return SocialShareButton.share(this);" title="Share to Tumblr" href="#"></a>
+<a rel="nofollow " data-site="pinterest" class="ssb-icon ssb-pinterest" onclick="return SocialShareButton.share(this);" title="Share to Pinterest" href="#"></a>
+<a rel="nofollow " data-site="email" class="ssb-icon ssb-email" onclick="return SocialShareButton.share(this);" title="Share to Email" href="#"></a>
+</div>
+
+</div>
+
+      <div class="prayer" data-id="22" category="hatred">
+
+    
+    
+        <h1 class="prayer-title"  url="/prayers/22" key="title">
+            &quot;Hate-Extermination&quot;
+        </h1>
+        
+        <p class="arabic"  url="/prayers/22" key="arabic">اللهم لا تجعل في قلبي كراهية لأحد</p>
+                        <p class="transliteration"  url="/prayers/22" key="transliteration">
+                            Allahumma laa taj3al fee qalbee karaahiyyah li aHad.
+                        </p>
+        <p class="translation"  url="/prayers/22" key="translation">Oh Allah, don&#39;t let the hate of anyone reside in my heart.</p>
+
+
+            <section class="audio-box" src="">
+                <audio controls>
+                <source src="" type="audio/mpeg">
+                </audio><br>
+                <a href="" class="hidden" data-toggle="download" data-placement="bottom" title="Download Du'a Audio Clip"><br><i class="fa fa-download fa-4x" style="margin-bottom: 0.1em;"></i></a><br>
+            </section>
+            
+
+
+            <br>
+                <i class="fa fa-heart fa-5x toggle-heart" data-id="22"></i>
+                <p>79 
+                    likes
+                </p><br>
+
+                <div class='social-share-button' data-title='Oh Allah, don&#39;t let the hate of anyone reside in my heart.
+اللهم لا تجعل في قلبي كراهية لأحد' data-img=''
+data-url='https://www.sujood.co/#id=22' data-desc='' data-via=''>
+<a rel="nofollow " data-site="twitter" class="ssb-icon ssb-twitter" onclick="return SocialShareButton.share(this);" title="Share to Twitter" href="#"></a>
+<a rel="nofollow " data-site="facebook" class="ssb-icon ssb-facebook" onclick="return SocialShareButton.share(this);" title="Share to Facebook" href="#"></a>
+<a rel="nofollow " data-site="google_plus" class="ssb-icon ssb-google_plus" onclick="return SocialShareButton.share(this);" title="Share to Google+" href="#"></a>
+<a rel="nofollow " data-site="tumblr" class="ssb-icon ssb-tumblr" onclick="return SocialShareButton.share(this);" title="Share to Tumblr" href="#"></a>
+<a rel="nofollow " data-site="pinterest" class="ssb-icon ssb-pinterest" onclick="return SocialShareButton.share(this);" title="Share to Pinterest" href="#"></a>
+<a rel="nofollow " data-site="email" class="ssb-icon ssb-email" onclick="return SocialShareButton.share(this);" title="Share to Email" href="#"></a>
+</div>
+
+</div>
+
+      <div class="prayer" data-id="19" category="love">
+
+    
+    
+        <h1 class="prayer-title"  url="/prayers/19" key="title">
+            &quot;Matchmaking (For Her)&quot;
+        </h1>
+        
+        <p class="arabic"  url="/prayers/19" key="arabic">اللهم اجعلني من الطيبات وارزقني الطيبين</p>
+                        <p class="transliteration"  url="/prayers/19" key="transliteration">
+                            Allahumma Ij3alnee min AlTayyibaat wa Urzuqnee min alTayyibeen
+                        </p>
+        <p class="translation"  url="/prayers/19" key="translation">Oh Allah make me from amongst the pure women and grant me from the pure men.</p>
+
+
+            <section class="audio-box" src="">
+                <audio controls>
+                <source src="" type="audio/mpeg">
+                </audio><br>
+                <a href="" class="hidden" data-toggle="download" data-placement="bottom" title="Download Du'a Audio Clip"><br><i class="fa fa-download fa-4x" style="margin-bottom: 0.1em;"></i></a><br>
+            </section>
+            
+
+
+            <br>
+                <i class="fa fa-heart fa-5x toggle-heart" data-id="19"></i>
+                <p>169 
+                    likes
+                </p><br>
+
+                <div class='social-share-button' data-title='Oh Allah make me from amongst the pure women and grant me from the pure men.
+اللهم اجعلني من الطيبات وارزقني الطيبين' data-img=''
+data-url='https://www.sujood.co/#id=19' data-desc='' data-via=''>
+<a rel="nofollow " data-site="twitter" class="ssb-icon ssb-twitter" onclick="return SocialShareButton.share(this);" title="Share to Twitter" href="#"></a>
+<a rel="nofollow " data-site="facebook" class="ssb-icon ssb-facebook" onclick="return SocialShareButton.share(this);" title="Share to Facebook" href="#"></a>
+<a rel="nofollow " data-site="google_plus" class="ssb-icon ssb-google_plus" onclick="return SocialShareButton.share(this);" title="Share to Google+" href="#"></a>
+<a rel="nofollow " data-site="tumblr" class="ssb-icon ssb-tumblr" onclick="return SocialShareButton.share(this);" title="Share to Tumblr" href="#"></a>
+<a rel="nofollow " data-site="pinterest" class="ssb-icon ssb-pinterest" onclick="return SocialShareButton.share(this);" title="Share to Pinterest" href="#"></a>
+<a rel="nofollow " data-site="email" class="ssb-icon ssb-email" onclick="return SocialShareButton.share(this);" title="Share to Email" href="#"></a>
+</div>
+
+</div>
+
+      <div class="prayer" data-id="18" category="love">
+
+    
+    
+        <h1 class="prayer-title"  url="/prayers/18" key="title">
+            &quot;Matchmaking (For Him)&quot;
+        </h1>
+        
+        <p class="arabic"  url="/prayers/18" key="arabic">اللهم اجعلني من الطيبين وارزقني الطيبات</p>
+                        <p class="transliteration"  url="/prayers/18" key="transliteration">
+                            Allahuma Ij3alnee min alTayibeen wa Urzuqnee min alTayyibaat
+                        </p>
+        <p class="translation"  url="/prayers/18" key="translation">Oh Allah make me from amongst the pure men and grant me from the pure women.</p>
+
+
+            <section class="audio-box" src="">
+                <audio controls>
+                <source src="" type="audio/mpeg">
+                </audio><br>
+                <a href="" class="hidden" data-toggle="download" data-placement="bottom" title="Download Du'a Audio Clip"><br><i class="fa fa-download fa-4x" style="margin-bottom: 0.1em;"></i></a><br>
+            </section>
+            
+
+
+            <br>
+                <i class="fa fa-heart fa-5x toggle-heart" data-id="18"></i>
+                <p>108 
+                    likes
+                </p><br>
+
+                <div class='social-share-button' data-title='Oh Allah make me from amongst the pure men and grant me from the pure women.
+اللهم اجعلني من الطيبين وارزقني الطيبات' data-img=''
+data-url='https://www.sujood.co/#id=18' data-desc='' data-via=''>
+<a rel="nofollow " data-site="twitter" class="ssb-icon ssb-twitter" onclick="return SocialShareButton.share(this);" title="Share to Twitter" href="#"></a>
+<a rel="nofollow " data-site="facebook" class="ssb-icon ssb-facebook" onclick="return SocialShareButton.share(this);" title="Share to Facebook" href="#"></a>
+<a rel="nofollow " data-site="google_plus" class="ssb-icon ssb-google_plus" onclick="return SocialShareButton.share(this);" title="Share to Google+" href="#"></a>
+<a rel="nofollow " data-site="tumblr" class="ssb-icon ssb-tumblr" onclick="return SocialShareButton.share(this);" title="Share to Tumblr" href="#"></a>
+<a rel="nofollow " data-site="pinterest" class="ssb-icon ssb-pinterest" onclick="return SocialShareButton.share(this);" title="Share to Pinterest" href="#"></a>
+<a rel="nofollow " data-site="email" class="ssb-icon ssb-email" onclick="return SocialShareButton.share(this);" title="Share to Email" href="#"></a>
+</div>
+
+</div>
+
+      <div class="prayer" data-id="34" category="offended">
+
+    
+    
+        <h1 class="prayer-title"  url="/prayers/34" key="title">
+            &quot;The Words Run Wild In Here&quot;
+        </h1>
+        
+        <p class="arabic"  url="/prayers/34" key="arabic">ْاللهم إنِّي أَعُوْذُ بِكَ مِنْ هَمِّ يَحْزُنُنِي وَمِنْ فِكْرِ يُقْلِقُنِيْ وَعِلْمَا يُتْعِبُنِيْ وَشَخْصَا يَحْمِلُ خُبْثَا لِي</p>
+                        <p class="transliteration"  url="/prayers/34" key="transliteration">
+                            Allahumma innee a&#39;uzubika min ham ayhzununee, wa min fikr yuqliqunee, wa 3ilm yut3ibunee, wa shakhS yahmilu khubsan-lee
+                        </p>
+        <p class="translation"  url="/prayers/34" key="translation">Oh Allah! I seek your shelter from worries that sadden me, thoughts that make me restless, information that bothers me, and people that intend bad for me. </p>
+
+
+            <section class="audio-box" src="">
+                <audio controls>
+                <source src="" type="audio/mpeg">
+                </audio><br>
+                <a href="" class="hidden" data-toggle="download" data-placement="bottom" title="Download Du'a Audio Clip"><br><i class="fa fa-download fa-4x" style="margin-bottom: 0.1em;"></i></a><br>
+            </section>
+            
+
+
+            <br>
+                <i class="fa fa-heart fa-5x toggle-heart" data-id="34"></i>
+                <p>873 
+                    likes
+                </p><br>
+
+                <div class='social-share-button' data-title='Oh Allah! I seek your shelter from worries that sadden me, thoughts that make me restless, information that bothers me, and people that intend bad for me. 
+ْاللهم إنِّي أَعُوْذُ بِكَ مِنْ هَمِّ يَحْزُنُنِي وَمِنْ فِكْرِ يُقْلِقُنِيْ وَعِلْمَا يُتْعِبُنِيْ وَشَخْصَا يَحْمِلُ خُبْثَا لِي' data-img=''
+data-url='https://www.sujood.co/#id=34' data-desc='' data-via=''>
+<a rel="nofollow " data-site="twitter" class="ssb-icon ssb-twitter" onclick="return SocialShareButton.share(this);" title="Share to Twitter" href="#"></a>
+<a rel="nofollow " data-site="facebook" class="ssb-icon ssb-facebook" onclick="return SocialShareButton.share(this);" title="Share to Facebook" href="#"></a>
+<a rel="nofollow " data-site="google_plus" class="ssb-icon ssb-google_plus" onclick="return SocialShareButton.share(this);" title="Share to Google+" href="#"></a>
+<a rel="nofollow " data-site="tumblr" class="ssb-icon ssb-tumblr" onclick="return SocialShareButton.share(this);" title="Share to Tumblr" href="#"></a>
+<a rel="nofollow " data-site="pinterest" class="ssb-icon ssb-pinterest" onclick="return SocialShareButton.share(this);" title="Share to Pinterest" href="#"></a>
+<a rel="nofollow " data-site="email" class="ssb-icon ssb-email" onclick="return SocialShareButton.share(this);" title="Share to Email" href="#"></a>
+</div>
+
+</div>
+
+      <div class="prayer" data-id="23" category="anxious, uncertain">
+
+    
+    
+        <h1 class="prayer-title"  url="/prayers/23" key="title">
+            &quot;Windex for Negativity&quot;
+        </h1>
+        
+        <p class="arabic"  url="/prayers/23" key="arabic"> اللهم اغسلني من السلبية </p>
+                        <p class="transliteration"  url="/prayers/23" key="transliteration">
+                            Allahumma iGsilnee min assalbiyah
+                        </p>
+        <p class="translation"  url="/prayers/23" key="translation">Oh Allah wash away my negativity.</p>
+
+
+            <section class="audio-box" src="">
+                <audio controls>
+                <source src="" type="audio/mpeg">
+                </audio><br>
+                <a href="" class="hidden" data-toggle="download" data-placement="bottom" title="Download Du'a Audio Clip"><br><i class="fa fa-download fa-4x" style="margin-bottom: 0.1em;"></i></a><br>
+            </section>
+            
+
+
+            <br>
+                <i class="fa fa-heart fa-5x toggle-heart" data-id="23"></i>
+                <p>295 
+                    likes
+                </p><br>
+
+                <div class='social-share-button' data-title='Oh Allah wash away my negativity.
+ اللهم اغسلني من السلبية ' data-img=''
+data-url='https://www.sujood.co/#id=23' data-desc='' data-via=''>
+<a rel="nofollow " data-site="twitter" class="ssb-icon ssb-twitter" onclick="return SocialShareButton.share(this);" title="Share to Twitter" href="#"></a>
+<a rel="nofollow " data-site="facebook" class="ssb-icon ssb-facebook" onclick="return SocialShareButton.share(this);" title="Share to Facebook" href="#"></a>
+<a rel="nofollow " data-site="google_plus" class="ssb-icon ssb-google_plus" onclick="return SocialShareButton.share(this);" title="Share to Google+" href="#"></a>
+<a rel="nofollow " data-site="tumblr" class="ssb-icon ssb-tumblr" onclick="return SocialShareButton.share(this);" title="Share to Tumblr" href="#"></a>
+<a rel="nofollow " data-site="pinterest" class="ssb-icon ssb-pinterest" onclick="return SocialShareButton.share(this);" title="Share to Pinterest" href="#"></a>
+<a rel="nofollow " data-site="email" class="ssb-icon ssb-email" onclick="return SocialShareButton.share(this);" title="Share to Email" href="#"></a>
+</div>
+
+</div>
+
+      <div class="prayer" data-id="13" category="nervous">
+
+    
+    
+        <h1 class="prayer-title"  url="/prayers/13" key="title">
+            &quot;Untie The Knot&quot;
+        </h1>
+        
+        <p class="arabic"  url="/prayers/13" key="arabic">رَبِّ اشْرَحْ لِي صَدْرِي وَيَسِّرْ لِي أَمْرِي وَاحْلُلْ عُقْدَةً مِّن لِّسَانِي يَفْقَهُوا قَوْلِي</p>
+                        <p class="transliteration"  url="/prayers/13" key="transliteration">
+                            Rabbi IshraHlee Sadree, wa yassirlee amree, waHlul Uqdatan min lisaanee, yafqahuu qawlee.
+                        </p>
+        <p class="translation"  url="/prayers/13" key="translation">Oh lord, expand my chest, ease my affair, and untie the knot in my tongue and perfect my expression.</p>
+
+
+            <section class="audio-box" src="">
+                <audio controls>
+                <source src="" type="audio/mpeg">
+                </audio><br>
+                <a href="" class="hidden" data-toggle="download" data-placement="bottom" title="Download Du'a Audio Clip"><br><i class="fa fa-download fa-4x" style="margin-bottom: 0.1em;"></i></a><br>
+            </section>
+            
+
+
+            <br>
+                <i class="fa fa-heart fa-5x toggle-heart" data-id="13"></i>
+                <p>156 
+                    likes
+                </p><br>
+
+                <div class='social-share-button' data-title='Oh lord, expand my chest, ease my affair, and untie the knot in my tongue and perfect my expression.
+رَبِّ اشْرَحْ لِي صَدْرِي وَيَسِّرْ لِي أَمْرِي وَاحْلُلْ عُقْدَةً مِّن لِّسَانِي يَفْقَهُوا قَوْلِي' data-img=''
+data-url='https://www.sujood.co/#id=13' data-desc='' data-via=''>
+<a rel="nofollow " data-site="twitter" class="ssb-icon ssb-twitter" onclick="return SocialShareButton.share(this);" title="Share to Twitter" href="#"></a>
+<a rel="nofollow " data-site="facebook" class="ssb-icon ssb-facebook" onclick="return SocialShareButton.share(this);" title="Share to Facebook" href="#"></a>
+<a rel="nofollow " data-site="google_plus" class="ssb-icon ssb-google_plus" onclick="return SocialShareButton.share(this);" title="Share to Google+" href="#"></a>
+<a rel="nofollow " data-site="tumblr" class="ssb-icon ssb-tumblr" onclick="return SocialShareButton.share(this);" title="Share to Tumblr" href="#"></a>
+<a rel="nofollow " data-site="pinterest" class="ssb-icon ssb-pinterest" onclick="return SocialShareButton.share(this);" title="Share to Pinterest" href="#"></a>
+<a rel="nofollow " data-site="email" class="ssb-icon ssb-email" onclick="return SocialShareButton.share(this);" title="Share to Email" href="#"></a>
+</div>
+
+</div>
+
+      <div class="prayer" data-id="1" category="nostalgic">
+
+    
+    
+        <h1 class="prayer-title"  url="/prayers/1" key="title">
+            &quot;Weak Heart&quot;
+        </h1>
+        
+        <p class="arabic"  url="/prayers/1" key="arabic">اللهم لَا تُعَلِّقْ قَلْبِي الضِّعِيفِ بِمَا لَيسَ لِي</p>
+                        <p class="transliteration"  url="/prayers/1" key="transliteration">
+                            
+                            
+                            Allahumma La Tu3alliq Qalbee AlDa3eef bimaa laysa lee
+                        
+                        
+                        </p>
+        <p class="translation"  url="/prayers/1" key="translation">Oh Allah, don&#39;t let my weak heart get attached with what&#39;s not mine.</p>
+
+
+            <section class="audio-box" src="https://sujoodco.s3-us-west-1.amazonaws.com/prayers/1/recording.mp3">
+                <audio controls>
+                <source src="https://sujoodco.s3-us-west-1.amazonaws.com/prayers/1/recording.mp3" type="audio/mpeg">
+                </audio><br>
+                <a href="https://sujoodco.s3-us-west-1.amazonaws.com/prayers/1/recording.mp3" class="hidden" data-toggle="download" data-placement="bottom" title="Download Du'a Audio Clip"><br><i class="fa fa-download fa-4x" style="margin-bottom: 0.1em;"></i></a><br>
+            </section>
+            
+
+
+            <br>
+                <i class="fa fa-heart fa-5x toggle-heart" data-id="1"></i>
+                <p>103 
+                    likes
+                </p><br>
+
+                <div class='social-share-button' data-title='Oh Allah, don&#39;t let my weak heart get attached with what&#39;s not mine.
+اللهم لَا تُعَلِّقْ قَلْبِي الضِّعِيفِ بِمَا لَيسَ لِي' data-img=''
+data-url='https://www.sujood.co/#id=1' data-desc='' data-via=''>
+<a rel="nofollow " data-site="twitter" class="ssb-icon ssb-twitter" onclick="return SocialShareButton.share(this);" title="Share to Twitter" href="#"></a>
+<a rel="nofollow " data-site="facebook" class="ssb-icon ssb-facebook" onclick="return SocialShareButton.share(this);" title="Share to Facebook" href="#"></a>
+<a rel="nofollow " data-site="google_plus" class="ssb-icon ssb-google_plus" onclick="return SocialShareButton.share(this);" title="Share to Google+" href="#"></a>
+<a rel="nofollow " data-site="tumblr" class="ssb-icon ssb-tumblr" onclick="return SocialShareButton.share(this);" title="Share to Tumblr" href="#"></a>
+<a rel="nofollow " data-site="pinterest" class="ssb-icon ssb-pinterest" onclick="return SocialShareButton.share(this);" title="Share to Pinterest" href="#"></a>
+<a rel="nofollow " data-site="email" class="ssb-icon ssb-email" onclick="return SocialShareButton.share(this);" title="Share to Email" href="#"></a>
+</div>
+
+</div>
+
+      <div class="prayer" data-id="11" category="hurt">
+
+    
+    
+        <h1 class="prayer-title"  url="/prayers/11" key="title">
+            &quot;Mend Me&quot;
+        </h1>
+        
+        <p class="arabic"  url="/prayers/11" key="arabic">ياجبار اجبرني</p>
+                        <p class="transliteration"  url="/prayers/11" key="transliteration">
+                            Ya Jabbaar, Ijbirnee.
+                        </p>
+        <p class="translation"  url="/prayers/11" key="translation">Oh Mender, Mend me.</p>
+
+
+            <section class="audio-box" src="">
+                <audio controls>
+                <source src="" type="audio/mpeg">
+                </audio><br>
+                <a href="" class="hidden" data-toggle="download" data-placement="bottom" title="Download Du'a Audio Clip"><br><i class="fa fa-download fa-4x" style="margin-bottom: 0.1em;"></i></a><br>
+            </section>
+            
+
+
+            <br>
+                <i class="fa fa-heart fa-5x toggle-heart" data-id="11"></i>
+                <p>213 
+                    likes
+                </p><br>
+
+                <div class='social-share-button' data-title='Oh Mender, Mend me.
+ياجبار اجبرني' data-img=''
+data-url='https://www.sujood.co/#id=11' data-desc='' data-via=''>
+<a rel="nofollow " data-site="twitter" class="ssb-icon ssb-twitter" onclick="return SocialShareButton.share(this);" title="Share to Twitter" href="#"></a>
+<a rel="nofollow " data-site="facebook" class="ssb-icon ssb-facebook" onclick="return SocialShareButton.share(this);" title="Share to Facebook" href="#"></a>
+<a rel="nofollow " data-site="google_plus" class="ssb-icon ssb-google_plus" onclick="return SocialShareButton.share(this);" title="Share to Google+" href="#"></a>
+<a rel="nofollow " data-site="tumblr" class="ssb-icon ssb-tumblr" onclick="return SocialShareButton.share(this);" title="Share to Tumblr" href="#"></a>
+<a rel="nofollow " data-site="pinterest" class="ssb-icon ssb-pinterest" onclick="return SocialShareButton.share(this);" title="Share to Pinterest" href="#"></a>
+<a rel="nofollow " data-site="email" class="ssb-icon ssb-email" onclick="return SocialShareButton.share(this);" title="Share to Email" href="#"></a>
+</div>
+
+</div>
+
+      <div class="prayer" data-id="24" category="doubtful, anticipation, indecisive">
+
+    
+    
+        <h1 class="prayer-title"  url="/prayers/24" key="title">
+            &quot;Ease Destiny&quot;
+        </h1>
+        
+        <p class="arabic"  url="/prayers/24" key="arabic">اللهم إن كان هذا الأمر خيرا لي فَاقْدُرْهُ لِي وَيَسِّرْهُ لِي ثُمَّ بَارِكْ لِي فِيهِ</p>
+                        <p class="transliteration"  url="/prayers/24" key="transliteration">
+                            Allahumma in kaana haaza alAmr khayran lee fa iQdirhu lee wa yassirhu lee summa baarik lee feehi.
+                        </p>
+        <p class="translation"  url="/prayers/24" key="translation">Oh Allah, if my intended action is best for me, make it destined and easy for me, and grant me Your Blessings in it.</p>
+
+
+            <section class="audio-box" src="">
+                <audio controls>
+                <source src="" type="audio/mpeg">
+                </audio><br>
+                <a href="" class="hidden" data-toggle="download" data-placement="bottom" title="Download Du'a Audio Clip"><br><i class="fa fa-download fa-4x" style="margin-bottom: 0.1em;"></i></a><br>
+            </section>
+            
+
+
+            <br>
+                <i class="fa fa-heart fa-5x toggle-heart" data-id="24"></i>
+                <p>279 
+                    likes
+                </p><br>
+
+                <div class='social-share-button' data-title='Oh Allah, if my intended action is best for me, make it destined and easy for me, and grant me Your Blessings in it.
+اللهم إن كان هذا الأمر خيرا لي فَاقْدُرْهُ لِي وَيَسِّرْهُ لِي ثُمَّ بَارِكْ لِي فِيهِ' data-img=''
+data-url='https://www.sujood.co/#id=24' data-desc='' data-via=''>
+<a rel="nofollow " data-site="twitter" class="ssb-icon ssb-twitter" onclick="return SocialShareButton.share(this);" title="Share to Twitter" href="#"></a>
+<a rel="nofollow " data-site="facebook" class="ssb-icon ssb-facebook" onclick="return SocialShareButton.share(this);" title="Share to Facebook" href="#"></a>
+<a rel="nofollow " data-site="google_plus" class="ssb-icon ssb-google_plus" onclick="return SocialShareButton.share(this);" title="Share to Google+" href="#"></a>
+<a rel="nofollow " data-site="tumblr" class="ssb-icon ssb-tumblr" onclick="return SocialShareButton.share(this);" title="Share to Tumblr" href="#"></a>
+<a rel="nofollow " data-site="pinterest" class="ssb-icon ssb-pinterest" onclick="return SocialShareButton.share(this);" title="Share to Pinterest" href="#"></a>
+<a rel="nofollow " data-site="email" class="ssb-icon ssb-email" onclick="return SocialShareButton.share(this);" title="Share to Email" href="#"></a>
+</div>
+
+</div>
+
+      <div class="prayer" data-id="16" category="confident">
+
+    
+    
+        <h1 class="prayer-title"  url="/prayers/16" key="title">
+            &quot;No half victories&quot;
+        </h1>
+        
+        <p class="arabic"  url="/prayers/16" key="arabic">يا رَبْ إذا أعطيتني مَالاً فلا تأخذ سَعادتي، وإذا أعَطيتني قوّة فلا تأخذ عقليْ، وإذا أعَطيتني نجَاحاً فلا تأخذ تَواضعْي وإذا أعطيتني تواضعاً فلا تأخذ اعتزازي بِكرامتي، </p>
+                        <p class="transliteration"  url="/prayers/16" key="transliteration">
+                            Ya Rabb, izaa a3Taytanee maalan falaa ta&#39;khuz sa3aadatee, wa izaa a3Taytanee quwwah falaa ta&#39;khuz 3qalee, wa izaa a3Taytanee najaaHan falaa ta&#39;khuz tawaaDa3ee, wa izaa a3Taytanee tawaaDi3aan falaa ta&#39;khuzu i3tizaazee bi kiraamatee.
+                        </p>
+        <p class="translation"  url="/prayers/16" key="translation">Oh Lord! When you give me wealth, do not take away my happiness. When you give me strength, do not take away my intelligence. When you give me victory, do not take away my humility. When you give me humility, do not take away my dignity.</p>
+
+
+            <section class="audio-box" src="">
+                <audio controls>
+                <source src="" type="audio/mpeg">
+                </audio><br>
+                <a href="" class="hidden" data-toggle="download" data-placement="bottom" title="Download Du'a Audio Clip"><br><i class="fa fa-download fa-4x" style="margin-bottom: 0.1em;"></i></a><br>
+            </section>
+            
+
+
+            <br>
+                <i class="fa fa-heart fa-5x toggle-heart" data-id="16"></i>
+                <p>102 
+                    likes
+                </p><br>
+
+                <div class='social-share-button' data-title='Oh Lord! When you give me wealth, do not take away my happiness. When you give me strength, do not take away my intelligence. When you give me victory, do not take away my humility. When you give me humility, do not take away my dignity.
+يا رَبْ إذا أعطيتني مَالاً فلا تأخذ سَعادتي، وإذا أعَطيتني قوّة فلا تأخذ عقليْ، وإذا أعَطيتني نجَاحاً فلا تأخذ تَواضعْي وإذا أعطيتني تواضعاً فلا تأخذ اعتزازي بِكرامتي، ' data-img=''
+data-url='https://www.sujood.co/#id=16' data-desc='' data-via=''>
+<a rel="nofollow " data-site="twitter" class="ssb-icon ssb-twitter" onclick="return SocialShareButton.share(this);" title="Share to Twitter" href="#"></a>
+<a rel="nofollow " data-site="facebook" class="ssb-icon ssb-facebook" onclick="return SocialShareButton.share(this);" title="Share to Facebook" href="#"></a>
+<a rel="nofollow " data-site="google_plus" class="ssb-icon ssb-google_plus" onclick="return SocialShareButton.share(this);" title="Share to Google+" href="#"></a>
+<a rel="nofollow " data-site="tumblr" class="ssb-icon ssb-tumblr" onclick="return SocialShareButton.share(this);" title="Share to Tumblr" href="#"></a>
+<a rel="nofollow " data-site="pinterest" class="ssb-icon ssb-pinterest" onclick="return SocialShareButton.share(this);" title="Share to Pinterest" href="#"></a>
+<a rel="nofollow " data-site="email" class="ssb-icon ssb-email" onclick="return SocialShareButton.share(this);" title="Share to Email" href="#"></a>
+</div>
+
+</div>
+
+      <div class="prayer" data-id="27" category="sad, anxious">
+
+    
+    
+        <h1 class="prayer-title"  url="/prayers/27" key="title">
+            &quot;State of Mind&quot;
+        </h1>
+        
+        <p class="arabic"  url="/prayers/27" key="arabic">اللهمّ فارج الهم، كاشف الغم، مذهب الحزن، اكشف اللهمّ عنّي همّي وغمّي ، وأذهب عنّي حزني </p>
+                        <p class="transliteration"  url="/prayers/27" key="transliteration">
+                            Allahumma Faarij alhamm, kaashif alGamm, muzhib alhuzn,  ikshif Allahumma 3annee hammee wa Gammee, wa azhib 3annee huznee
+                        </p>
+        <p class="translation"  url="/prayers/27" key="translation">Oh Allah, Reliever of anxiety, Remover of distress, Dispeller of grief! Remove my anxiety, distress, and dispel from me my sadness.</p>
+
+
+            <section class="audio-box" src="">
+                <audio controls>
+                <source src="" type="audio/mpeg">
+                </audio><br>
+                <a href="" class="hidden" data-toggle="download" data-placement="bottom" title="Download Du'a Audio Clip"><br><i class="fa fa-download fa-4x" style="margin-bottom: 0.1em;"></i></a><br>
+            </section>
+            
+
+
+            <br>
+                <i class="fa fa-heart fa-5x toggle-heart" data-id="27"></i>
+                <p>418 
+                    likes
+                </p><br>
+
+                <div class='social-share-button' data-title='Oh Allah, Reliever of anxiety, Remover of distress, Dispeller of grief! Remove my anxiety, distress, and dispel from me my sadness.
+اللهمّ فارج الهم، كاشف الغم، مذهب الحزن، اكشف اللهمّ عنّي همّي وغمّي ، وأذهب عنّي حزني ' data-img=''
+data-url='https://www.sujood.co/#id=27' data-desc='' data-via=''>
+<a rel="nofollow " data-site="twitter" class="ssb-icon ssb-twitter" onclick="return SocialShareButton.share(this);" title="Share to Twitter" href="#"></a>
+<a rel="nofollow " data-site="facebook" class="ssb-icon ssb-facebook" onclick="return SocialShareButton.share(this);" title="Share to Facebook" href="#"></a>
+<a rel="nofollow " data-site="google_plus" class="ssb-icon ssb-google_plus" onclick="return SocialShareButton.share(this);" title="Share to Google+" href="#"></a>
+<a rel="nofollow " data-site="tumblr" class="ssb-icon ssb-tumblr" onclick="return SocialShareButton.share(this);" title="Share to Tumblr" href="#"></a>
+<a rel="nofollow " data-site="pinterest" class="ssb-icon ssb-pinterest" onclick="return SocialShareButton.share(this);" title="Share to Pinterest" href="#"></a>
+<a rel="nofollow " data-site="email" class="ssb-icon ssb-email" onclick="return SocialShareButton.share(this);" title="Share to Email" href="#"></a>
+</div>
+
+</div>
+
+      <div class="prayer" data-id="32" category="aroused">
+
+    
+    
+        <h1 class="prayer-title"  url="/prayers/32" key="title">
+            &quot;Lower My Gaze&quot;
+        </h1>
+        
+        <p class="arabic"  url="/prayers/32" key="arabic">اللهم غض بصرى و حصن فرجى و طهر قلبى</p>
+                        <p class="transliteration"  url="/prayers/32" key="transliteration">
+                            Allahumma GuD baSaree wa Hassin farjee wa Tahhir Qalbee
+                        </p>
+        <p class="translation"  url="/prayers/32" key="translation">Oh Allah! Lower my gaze، protect my private parts، and purify my heart!</p>
+
+
+            <section class="audio-box" src="">
+                <audio controls>
+                <source src="" type="audio/mpeg">
+                </audio><br>
+                <a href="" class="hidden" data-toggle="download" data-placement="bottom" title="Download Du'a Audio Clip"><br><i class="fa fa-download fa-4x" style="margin-bottom: 0.1em;"></i></a><br>
+            </section>
+            
+
+
+            <br>
+                <i class="fa fa-heart fa-5x toggle-heart" data-id="32"></i>
+                <p>392 
+                    likes
+                </p><br>
+
+                <div class='social-share-button' data-title='Oh Allah! Lower my gaze، protect my private parts، and purify my heart!
+اللهم غض بصرى و حصن فرجى و طهر قلبى' data-img=''
+data-url='https://www.sujood.co/#id=32' data-desc='' data-via=''>
+<a rel="nofollow " data-site="twitter" class="ssb-icon ssb-twitter" onclick="return SocialShareButton.share(this);" title="Share to Twitter" href="#"></a>
+<a rel="nofollow " data-site="facebook" class="ssb-icon ssb-facebook" onclick="return SocialShareButton.share(this);" title="Share to Facebook" href="#"></a>
+<a rel="nofollow " data-site="google_plus" class="ssb-icon ssb-google_plus" onclick="return SocialShareButton.share(this);" title="Share to Google+" href="#"></a>
+<a rel="nofollow " data-site="tumblr" class="ssb-icon ssb-tumblr" onclick="return SocialShareButton.share(this);" title="Share to Tumblr" href="#"></a>
+<a rel="nofollow " data-site="pinterest" class="ssb-icon ssb-pinterest" onclick="return SocialShareButton.share(this);" title="Share to Pinterest" href="#"></a>
+<a rel="nofollow " data-site="email" class="ssb-icon ssb-email" onclick="return SocialShareButton.share(this);" title="Share to Email" href="#"></a>
+</div>
+
+</div>
+
+      <div class="prayer" data-id="25" category="desperate, overwhelmed, humiliated">
+
+    
+    
+        <h1 class="prayer-title"  url="/prayers/25" key="title">
+            &quot;You are the Lord of the weak&quot;
+        </h1>
+        
+        <p class="arabic"  url="/prayers/25" key="arabic">اللهم إليك أشكو ضعف قوتي وقلة حيلتي وهواني على الناس يا أرحم الراحمين أنت ربُّ المستضعفين وانت ربّي</p>
+                        <p class="transliteration"  url="/prayers/25" key="transliteration">
+                            Allahuma ilayka ashku da&#39;fa quwwati
+wa qillata heelatee wa hawanee 3ala an-naas
+ya arhamur rahimeen
+annta Rabbul mustad&#39;afeen wa anta rabbi
+                        </p>
+        <p class="translation"  url="/prayers/25" key="translation">To You, my Lord,
+I complain of my weakness, lack of support and the humiliation I am made to receive. Most Compassionate and Merciful! You are the Lord of the weak, and you are my Lord.</p>
+
+
+            <section class="audio-box" src="">
+                <audio controls>
+                <source src="" type="audio/mpeg">
+                </audio><br>
+                <a href="" class="hidden" data-toggle="download" data-placement="bottom" title="Download Du'a Audio Clip"><br><i class="fa fa-download fa-4x" style="margin-bottom: 0.1em;"></i></a><br>
+            </section>
+            
+
+
+            <br>
+                <i class="fa fa-heart fa-5x toggle-heart" data-id="25"></i>
+                <p>274 
+                    likes
+                </p><br>
+
+                <div class='social-share-button' data-title='To You, my Lord,
+I complain of my weakness, lack of support and the humiliation I am made to receive. Most Compassionate and Merciful! You are the Lord of the weak, and you are my Lord.
+اللهم إليك أشكو ضعف قوتي وقلة حيلتي وهواني على الناس يا أرحم الراحمين أنت ربُّ المستضعفين وانت ربّي' data-img=''
+data-url='https://www.sujood.co/#id=25' data-desc='' data-via=''>
+<a rel="nofollow " data-site="twitter" class="ssb-icon ssb-twitter" onclick="return SocialShareButton.share(this);" title="Share to Twitter" href="#"></a>
+<a rel="nofollow " data-site="facebook" class="ssb-icon ssb-facebook" onclick="return SocialShareButton.share(this);" title="Share to Facebook" href="#"></a>
+<a rel="nofollow " data-site="google_plus" class="ssb-icon ssb-google_plus" onclick="return SocialShareButton.share(this);" title="Share to Google+" href="#"></a>
+<a rel="nofollow " data-site="tumblr" class="ssb-icon ssb-tumblr" onclick="return SocialShareButton.share(this);" title="Share to Tumblr" href="#"></a>
+<a rel="nofollow " data-site="pinterest" class="ssb-icon ssb-pinterest" onclick="return SocialShareButton.share(this);" title="Share to Pinterest" href="#"></a>
+<a rel="nofollow " data-site="email" class="ssb-icon ssb-email" onclick="return SocialShareButton.share(this);" title="Share to Email" href="#"></a>
+</div>
+
+</div>
+
+      <div class="prayer" data-id="15" category="angry, rage">
+
+    
+    
+        <h1 class="prayer-title"  url="/prayers/15" key="title">
+            &quot;Extinguish&quot;
+        </h1>
+        
+        <p class="arabic"  url="/prayers/15" key="arabic">اللَّهُمَّ أَذْهِبْ غَيْظَ قَلْبِي </p>
+                        <p class="transliteration"  url="/prayers/15" key="transliteration">
+                            Allahumma azhib Gaydha Qalbee.
+                        </p>
+        <p class="translation"  url="/prayers/15" key="translation">Oh Allah, remove anger from my heart.</p>
+
+
+            <section class="audio-box" src="">
+                <audio controls>
+                <source src="" type="audio/mpeg">
+                </audio><br>
+                <a href="" class="hidden" data-toggle="download" data-placement="bottom" title="Download Du'a Audio Clip"><br><i class="fa fa-download fa-4x" style="margin-bottom: 0.1em;"></i></a><br>
+            </section>
+            
+
+
+            <br>
+                <i class="fa fa-heart fa-5x toggle-heart" data-id="15"></i>
+                <p>407 
+                    likes
+                </p><br>
+
+                <div class='social-share-button' data-title='Oh Allah, remove anger from my heart.
+اللَّهُمَّ أَذْهِبْ غَيْظَ قَلْبِي ' data-img=''
+data-url='https://www.sujood.co/#id=15' data-desc='' data-via=''>
+<a rel="nofollow " data-site="twitter" class="ssb-icon ssb-twitter" onclick="return SocialShareButton.share(this);" title="Share to Twitter" href="#"></a>
+<a rel="nofollow " data-site="facebook" class="ssb-icon ssb-facebook" onclick="return SocialShareButton.share(this);" title="Share to Facebook" href="#"></a>
+<a rel="nofollow " data-site="google_plus" class="ssb-icon ssb-google_plus" onclick="return SocialShareButton.share(this);" title="Share to Google+" href="#"></a>
+<a rel="nofollow " data-site="tumblr" class="ssb-icon ssb-tumblr" onclick="return SocialShareButton.share(this);" title="Share to Tumblr" href="#"></a>
+<a rel="nofollow " data-site="pinterest" class="ssb-icon ssb-pinterest" onclick="return SocialShareButton.share(this);" title="Share to Pinterest" href="#"></a>
+<a rel="nofollow " data-site="email" class="ssb-icon ssb-email" onclick="return SocialShareButton.share(this);" title="Share to Email" href="#"></a>
+</div>
+
+</div>
+
+      <div class="prayer" data-id="35" category="weak">
+
+    
+    
+        <h1 class="prayer-title"  url="/prayers/35" key="title">
+            &quot;You are my Lord&quot;
+        </h1>
+        
+        <p class="arabic"  url="/prayers/35" key="arabic">اَللّهمَّ إِلَيْكَ أَشْكُوْ ضُعْفَ قُوَّتِيْ ، وَقِلَّةَ حِيْلَتِيْ ، وَهَوَانِيْ عَلَى النَّاسِ ، يَا أَرْحَمَ الرَّاحِمِيْنَ ، أَنْتَ رَبُّ الْمُسْتَضْعَفِيْنَ ، وَأَنْتَ رَبِّي</p>
+                        <p class="transliteration"  url="/prayers/35" key="transliteration">
+                            Allahuma inni ashku ilayka du&#39;fa quwati wa qilata heelati wa hawaani ala annaas. yaa arham araahimin, anta rab almustadafeena wa anta rabi
+
+                        </p>
+        <p class="translation"  url="/prayers/35" key="translation">Oh, Allah, I appeal to you for the weakness in my strength,
+and my limited power, and the treatment of contempt and humiliation from people. To you, the most Merciful of all the Merciful ones, you are the Lord of the oppressed, and you are my Lord.</p>
+
+
+            <section class="audio-box" src="">
+                <audio controls>
+                <source src="" type="audio/mpeg">
+                </audio><br>
+                <a href="" class="hidden" data-toggle="download" data-placement="bottom" title="Download Du'a Audio Clip"><br><i class="fa fa-download fa-4x" style="margin-bottom: 0.1em;"></i></a><br>
+            </section>
+            
+
+
+            <br>
+                <i class="fa fa-heart fa-5x toggle-heart" data-id="35"></i>
+                <p>1673 
+                    likes
+                </p><br>
+
+                <div class='social-share-button' data-title='Oh, Allah, I appeal to you for the weakness in my strength,
+and my limited power, and the treatment of contempt and humiliation from people. To you, the most Merciful of all the Merciful ones, you are the Lord of the oppressed, and you are my Lord.
+اَللّهمَّ إِلَيْكَ أَشْكُوْ ضُعْفَ قُوَّتِيْ ، وَقِلَّةَ حِيْلَتِيْ ، وَهَوَانِيْ عَلَى النَّاسِ ، يَا أَرْحَمَ الرَّاحِمِيْنَ ، أَنْتَ رَبُّ الْمُسْتَضْعَفِيْنَ ، وَأَنْتَ رَبِّي' data-img=''
+data-url='https://www.sujood.co/#id=35' data-desc='' data-via=''>
+<a rel="nofollow " data-site="twitter" class="ssb-icon ssb-twitter" onclick="return SocialShareButton.share(this);" title="Share to Twitter" href="#"></a>
+<a rel="nofollow " data-site="facebook" class="ssb-icon ssb-facebook" onclick="return SocialShareButton.share(this);" title="Share to Facebook" href="#"></a>
+<a rel="nofollow " data-site="google_plus" class="ssb-icon ssb-google_plus" onclick="return SocialShareButton.share(this);" title="Share to Google+" href="#"></a>
+<a rel="nofollow " data-site="tumblr" class="ssb-icon ssb-tumblr" onclick="return SocialShareButton.share(this);" title="Share to Tumblr" href="#"></a>
+<a rel="nofollow " data-site="pinterest" class="ssb-icon ssb-pinterest" onclick="return SocialShareButton.share(this);" title="Share to Pinterest" href="#"></a>
+<a rel="nofollow " data-site="email" class="ssb-icon ssb-email" onclick="return SocialShareButton.share(this);" title="Share to Email" href="#"></a>
+</div>
+
+</div>
+
+      <div class="prayer" data-id="6" category="confused">
+
+    
+    
+        <h1 class="prayer-title"  url="/prayers/6" key="title">
+            &quot;Help me feel&quot;
+        </h1>
+        
+        <p class="arabic"  url="/prayers/6" key="arabic">اللهمّ اجعل في قلبي نوراً، وفي لساني نوراً، واجعل في سمعي نوراً، واجعل في بصري نوراً، واجعل من خلفي ‏نوراً، ومن أمامي نوراً، واجعل من فوقي نوراً، ومن تحتي نوراً، اللهمّ أعطني نوراً</p>
+                        <p class="transliteration"  url="/prayers/6" key="transliteration">
+                            Allahumma Ij3al fee qalbee noora, wa fee lisaanee noora, wa ij3al fee sam3ee noora, wa ij3al fee baSaree noora, wa ij3al min khalfee noora, wa min amaamee noora, wa ij3al min fawqee nooraa, wa mmin tahtee noora, Allahumma a3Tinee noora.
+                        </p>
+        <p class="translation"  url="/prayers/6" key="translation">Oh Allah! Place in my heart, Light. Place in my tongue, Light. Place in my hearing, Light. Place in my sight, Light. Place behind me, Light. Place before me, Light. Place above me, Light. Place under me, Light. Oh Allah grant me Light!</p>
+
+
+            <section class="audio-box" src="">
+                <audio controls>
+                <source src="" type="audio/mpeg">
+                </audio><br>
+                <a href="" class="hidden" data-toggle="download" data-placement="bottom" title="Download Du'a Audio Clip"><br><i class="fa fa-download fa-4x" style="margin-bottom: 0.1em;"></i></a><br>
+            </section>
+            
+
+
+            <br>
+                <i class="fa fa-heart fa-5x toggle-heart" data-id="6"></i>
+                <p>347 
+                    likes
+                </p><br>
+
+                <div class='social-share-button' data-title='Oh Allah! Place in my heart, Light. Place in my tongue, Light. Place in my hearing, Light. Place in my sight, Light. Place behind me, Light. Place before me, Light. Place above me, Light. Place under me, Light. Oh Allah grant me Light!
+اللهمّ اجعل في قلبي نوراً، وفي لساني نوراً، واجعل في سمعي نوراً، واجعل في بصري نوراً، واجعل من خلفي ‏نوراً، ومن أمامي نوراً، واجعل من فوقي نوراً، ومن تحتي نوراً، اللهمّ أعطني نوراً' data-img=''
+data-url='https://www.sujood.co/#id=6' data-desc='' data-via=''>
+<a rel="nofollow " data-site="twitter" class="ssb-icon ssb-twitter" onclick="return SocialShareButton.share(this);" title="Share to Twitter" href="#"></a>
+<a rel="nofollow " data-site="facebook" class="ssb-icon ssb-facebook" onclick="return SocialShareButton.share(this);" title="Share to Facebook" href="#"></a>
+<a rel="nofollow " data-site="google_plus" class="ssb-icon ssb-google_plus" onclick="return SocialShareButton.share(this);" title="Share to Google+" href="#"></a>
+<a rel="nofollow " data-site="tumblr" class="ssb-icon ssb-tumblr" onclick="return SocialShareButton.share(this);" title="Share to Tumblr" href="#"></a>
+<a rel="nofollow " data-site="pinterest" class="ssb-icon ssb-pinterest" onclick="return SocialShareButton.share(this);" title="Share to Pinterest" href="#"></a>
+<a rel="nofollow " data-site="email" class="ssb-icon ssb-email" onclick="return SocialShareButton.share(this);" title="Share to Email" href="#"></a>
+</div>
+
+</div>
+
+      <div class="prayer" data-id="17" category="confident">
+
+    
+    
+        <h1 class="prayer-title"  url="/prayers/17" key="title">
+            &quot;Make me real&quot;
+        </h1>
+        
+        <p class="arabic"  url="/prayers/17" key="arabic">يا رَبْ عَلمّنْي أنْ أحبّ النَاسْ كَما أحبّ نَفسْي، وَعَلّمني أنْ أحَاسِبْ نَفسْي كَما أحَاسِبْ النَاسْ، وَعَلّمنْي أنْ التسَامح هَو أكْبَر مَراتب القوّة وَأنّ حبّ الانتقام هَو أولْ  مَظاهِر الضعْفَ</p>
+                        <p class="transliteration"  url="/prayers/17" key="transliteration">
+                            Yaa Rabb, 3allimanee an uHibb anNaas kamaa uHibb nafsee. Wa 3allimanee an uHaasib nafsee kamaa uHaasib anNaas. Wa 3allimanee an altasaamuH huwa huwa akbar mraatib alquwwah. Wa an Hubb alIntiqaam huwa awwal muZHaahir alDu3f.
+                        </p>
+        <p class="translation"  url="/prayers/17" key="translation">Oh Lord, teach me to love others as I love myself. And teach me to be as hard on myself as I am on others. And teach me to tolerate those who have higher authority than me. And teach me that the love of revenge is the primary sign of weakness.</p>
+
+
+            <section class="audio-box" src="">
+                <audio controls>
+                <source src="" type="audio/mpeg">
+                </audio><br>
+                <a href="" class="hidden" data-toggle="download" data-placement="bottom" title="Download Du'a Audio Clip"><br><i class="fa fa-download fa-4x" style="margin-bottom: 0.1em;"></i></a><br>
+            </section>
+            
+
+
+            <br>
+                <i class="fa fa-heart fa-5x toggle-heart" data-id="17"></i>
+                <p>90 
+                    likes
+                </p><br>
+
+                <div class='social-share-button' data-title='Oh Lord, teach me to love others as I love myself. And teach me to be as hard on myself as I am on others. And teach me to tolerate those who have higher authority than me. And teach me that the love of revenge is the primary sign of weakness.
+يا رَبْ عَلمّنْي أنْ أحبّ النَاسْ كَما أحبّ نَفسْي، وَعَلّمني أنْ أحَاسِبْ نَفسْي كَما أحَاسِبْ النَاسْ، وَعَلّمنْي أنْ التسَامح هَو أكْبَر مَراتب القوّة وَأنّ حبّ الانتقام هَو أولْ  مَظاهِر الضعْفَ' data-img=''
+data-url='https://www.sujood.co/#id=17' data-desc='' data-via=''>
+<a rel="nofollow " data-site="twitter" class="ssb-icon ssb-twitter" onclick="return SocialShareButton.share(this);" title="Share to Twitter" href="#"></a>
+<a rel="nofollow " data-site="facebook" class="ssb-icon ssb-facebook" onclick="return SocialShareButton.share(this);" title="Share to Facebook" href="#"></a>
+<a rel="nofollow " data-site="google_plus" class="ssb-icon ssb-google_plus" onclick="return SocialShareButton.share(this);" title="Share to Google+" href="#"></a>
+<a rel="nofollow " data-site="tumblr" class="ssb-icon ssb-tumblr" onclick="return SocialShareButton.share(this);" title="Share to Tumblr" href="#"></a>
+<a rel="nofollow " data-site="pinterest" class="ssb-icon ssb-pinterest" onclick="return SocialShareButton.share(this);" title="Share to Pinterest" href="#"></a>
+<a rel="nofollow " data-site="email" class="ssb-icon ssb-email" onclick="return SocialShareButton.share(this);" title="Share to Email" href="#"></a>
+</div>
+
+</div>
+
+      <div class="prayer" data-id="9" category="hurt">
+
+    
+    
+        <h1 class="prayer-title"  url="/prayers/9" key="title">
+            &quot;Weak heart&quot;
+        </h1>
+        
+        <p class="arabic"  url="/prayers/9" key="arabic">اللهم لا تعلق قلبي الضعيف بما ليس بي
+</p>
+                        <p class="transliteration"  url="/prayers/9" key="transliteration">
+                            Allahumma Laa tu3alliq Qalbee adDa3eef bimaa laysa bee
+                        </p>
+        <p class="translation"  url="/prayers/9" key="translation">Oh Allah, don&#39;t let my weak heart get attached with what&#39;s not mine.
+</p>
+
+
+            <section class="audio-box" src="">
+                <audio controls>
+                <source src="" type="audio/mpeg">
+                </audio><br>
+                <a href="" class="hidden" data-toggle="download" data-placement="bottom" title="Download Du'a Audio Clip"><br><i class="fa fa-download fa-4x" style="margin-bottom: 0.1em;"></i></a><br>
+            </section>
+            
+
+
+            <br>
+                <i class="fa fa-heart fa-5x toggle-heart" data-id="9"></i>
+                <p>335 
+                    likes
+                </p><br>
+
+                <div class='social-share-button' data-title='Oh Allah, don&#39;t let my weak heart get attached with what&#39;s not mine.
+
+اللهم لا تعلق قلبي الضعيف بما ليس بي
+' data-img=''
+data-url='https://www.sujood.co/#id=9' data-desc='' data-via=''>
+<a rel="nofollow " data-site="twitter" class="ssb-icon ssb-twitter" onclick="return SocialShareButton.share(this);" title="Share to Twitter" href="#"></a>
+<a rel="nofollow " data-site="facebook" class="ssb-icon ssb-facebook" onclick="return SocialShareButton.share(this);" title="Share to Facebook" href="#"></a>
+<a rel="nofollow " data-site="google_plus" class="ssb-icon ssb-google_plus" onclick="return SocialShareButton.share(this);" title="Share to Google+" href="#"></a>
+<a rel="nofollow " data-site="tumblr" class="ssb-icon ssb-tumblr" onclick="return SocialShareButton.share(this);" title="Share to Tumblr" href="#"></a>
+<a rel="nofollow " data-site="pinterest" class="ssb-icon ssb-pinterest" onclick="return SocialShareButton.share(this);" title="Share to Pinterest" href="#"></a>
+<a rel="nofollow " data-site="email" class="ssb-icon ssb-email" onclick="return SocialShareButton.share(this);" title="Share to Email" href="#"></a>
+</div>
+
+</div>
+
+      <div class="prayer" data-id="20" category="happy, peaceful, satisfied, content">
+
+    
+    
+        <h1 class="prayer-title"  url="/prayers/20" key="title">
+            &quot;Keep me happy&quot;
+        </h1>
+        
+        <p class="arabic"  url="/prayers/20" key="arabic">اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ زَوَالِ نِعْمَتِكَ، وَتَحَوُّلِ عَافِيَتِكَ، وَفُجَاءَةِ نِقْمَتِكَ، وَجَمِيعِ سَخَطِكَ</p>
+                        <p class="transliteration"  url="/prayers/20" key="transliteration">
+                            Allahumma inni a&#39;udhu bika min zawali ni&#39;matika, wa tahawwuli &#39;afiyatika, wa fuja&#39;ati niqmatika, wa jami&#39;i sakhatika
+                        </p>
+        <p class="translation"  url="/prayers/20" key="translation">O Allah! I seek refuge in You from the decline of Your blessings, the passing of safety, the sudden onset of Your punishment and from all that displeases you.</p>
+
+
+            <section class="audio-box" src="">
+                <audio controls>
+                <source src="" type="audio/mpeg">
+                </audio><br>
+                <a href="" class="hidden" data-toggle="download" data-placement="bottom" title="Download Du'a Audio Clip"><br><i class="fa fa-download fa-4x" style="margin-bottom: 0.1em;"></i></a><br>
+            </section>
+            
+
+
+            <br>
+                <i class="fa fa-heart fa-5x toggle-heart" data-id="20"></i>
+                <p>367 
+                    likes
+                </p><br>
+
+                <div class='social-share-button' data-title='O Allah! I seek refuge in You from the decline of Your blessings, the passing of safety, the sudden onset of Your punishment and from all that displeases you.
+اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ زَوَالِ نِعْمَتِكَ، وَتَحَوُّلِ عَافِيَتِكَ، وَفُجَاءَةِ نِقْمَتِكَ، وَجَمِيعِ سَخَطِكَ' data-img=''
+data-url='https://www.sujood.co/#id=20' data-desc='' data-via=''>
+<a rel="nofollow " data-site="twitter" class="ssb-icon ssb-twitter" onclick="return SocialShareButton.share(this);" title="Share to Twitter" href="#"></a>
+<a rel="nofollow " data-site="facebook" class="ssb-icon ssb-facebook" onclick="return SocialShareButton.share(this);" title="Share to Facebook" href="#"></a>
+<a rel="nofollow " data-site="google_plus" class="ssb-icon ssb-google_plus" onclick="return SocialShareButton.share(this);" title="Share to Google+" href="#"></a>
+<a rel="nofollow " data-site="tumblr" class="ssb-icon ssb-tumblr" onclick="return SocialShareButton.share(this);" title="Share to Tumblr" href="#"></a>
+<a rel="nofollow " data-site="pinterest" class="ssb-icon ssb-pinterest" onclick="return SocialShareButton.share(this);" title="Share to Pinterest" href="#"></a>
+<a rel="nofollow " data-site="email" class="ssb-icon ssb-email" onclick="return SocialShareButton.share(this);" title="Share to Email" href="#"></a>
+</div>
+
+</div>
+
+      <div class="prayer" data-id="31" category="aroused, desire">
+
+    
+    
+        <h1 class="prayer-title"  url="/prayers/31" key="title">
+            &quot;Fire Alarm&quot;
+        </h1>
+        
+        <p class="arabic"  url="/prayers/31" key="arabic">اللهم اطفئ نار الشهوات من قلبى ، واصرف عنه كل شئ لا يرضيك عنى </p>
+                        <p class="transliteration"  url="/prayers/31" key="transliteration">
+                            Allahumma iTfa&#39; naara ash-shahawaati min qalbee, wa aSrid 3anhu kulla shay&#39; la yardeek
+                        </p>
+        <p class="translation"  url="/prayers/31" key="translation">Oh Allah! Extinguish the fire of desires in my heart and redirect my heart to all that which pleases you.</p>
+
+
+            <section class="audio-box" src="">
+                <audio controls>
+                <source src="" type="audio/mpeg">
+                </audio><br>
+                <a href="" class="hidden" data-toggle="download" data-placement="bottom" title="Download Du'a Audio Clip"><br><i class="fa fa-download fa-4x" style="margin-bottom: 0.1em;"></i></a><br>
+            </section>
+            
+
+
+            <br>
+                <i class="fa fa-heart fa-5x toggle-heart" data-id="31"></i>
+                <p>472 
+                    likes
+                </p><br>
+
+                <div class='social-share-button' data-title='Oh Allah! Extinguish the fire of desires in my heart and redirect my heart to all that which pleases you.
+اللهم اطفئ نار الشهوات من قلبى ، واصرف عنه كل شئ لا يرضيك عنى ' data-img=''
+data-url='https://www.sujood.co/#id=31' data-desc='' data-via=''>
+<a rel="nofollow " data-site="twitter" class="ssb-icon ssb-twitter" onclick="return SocialShareButton.share(this);" title="Share to Twitter" href="#"></a>
+<a rel="nofollow " data-site="facebook" class="ssb-icon ssb-facebook" onclick="return SocialShareButton.share(this);" title="Share to Facebook" href="#"></a>
+<a rel="nofollow " data-site="google_plus" class="ssb-icon ssb-google_plus" onclick="return SocialShareButton.share(this);" title="Share to Google+" href="#"></a>
+<a rel="nofollow " data-site="tumblr" class="ssb-icon ssb-tumblr" onclick="return SocialShareButton.share(this);" title="Share to Tumblr" href="#"></a>
+<a rel="nofollow " data-site="pinterest" class="ssb-icon ssb-pinterest" onclick="return SocialShareButton.share(this);" title="Share to Pinterest" href="#"></a>
+<a rel="nofollow " data-site="email" class="ssb-icon ssb-email" onclick="return SocialShareButton.share(this);" title="Share to Email" href="#"></a>
+</div>
+
+</div>
+
+      <div class="prayer" data-id="8" category="guilty">
+
+    
+    
+        <h1 class="prayer-title"  url="/prayers/8" key="title">
+            &quot;Clean Slate&quot;
+        </h1>
+        
+        <p class="arabic"  url="/prayers/8" key="arabic">يارب أمسح على صدري برحمتك</p>
+                        <p class="transliteration"  url="/prayers/8" key="transliteration">
+                            Ya Rabb, ImsaH Sadree biraHmatik
+                        </p>
+        <p class="translation"  url="/prayers/8" key="translation">Oh Lord, wipe my chest clean with your mercy.</p>
+
+
+            <section class="audio-box" src="">
+                <audio controls>
+                <source src="" type="audio/mpeg">
+                </audio><br>
+                <a href="" class="hidden" data-toggle="download" data-placement="bottom" title="Download Du'a Audio Clip"><br><i class="fa fa-download fa-4x" style="margin-bottom: 0.1em;"></i></a><br>
+            </section>
+            
+
+
+            <br>
+                <i class="fa fa-heart fa-5x toggle-heart" data-id="8"></i>
+                <p>201 
+                    likes
+                </p><br>
+
+                <div class='social-share-button' data-title='Oh Lord, wipe my chest clean with your mercy.
+يارب أمسح على صدري برحمتك' data-img=''
+data-url='https://www.sujood.co/#id=8' data-desc='' data-via=''>
+<a rel="nofollow " data-site="twitter" class="ssb-icon ssb-twitter" onclick="return SocialShareButton.share(this);" title="Share to Twitter" href="#"></a>
+<a rel="nofollow " data-site="facebook" class="ssb-icon ssb-facebook" onclick="return SocialShareButton.share(this);" title="Share to Facebook" href="#"></a>
+<a rel="nofollow " data-site="google_plus" class="ssb-icon ssb-google_plus" onclick="return SocialShareButton.share(this);" title="Share to Google+" href="#"></a>
+<a rel="nofollow " data-site="tumblr" class="ssb-icon ssb-tumblr" onclick="return SocialShareButton.share(this);" title="Share to Tumblr" href="#"></a>
+<a rel="nofollow " data-site="pinterest" class="ssb-icon ssb-pinterest" onclick="return SocialShareButton.share(this);" title="Share to Pinterest" href="#"></a>
+<a rel="nofollow " data-site="email" class="ssb-icon ssb-email" onclick="return SocialShareButton.share(this);" title="Share to Email" href="#"></a>
+</div>
+
+</div>
+
+      <div class="prayer" data-id="4" category="depressed, sad, anxious, lazy, weak">
+
+    
+    
+        <h1 class="prayer-title"  url="/prayers/4" key="title">
+            &quot;Productivity Energy Drink&quot;
+        </h1>
+        
+        <p class="arabic"  url="/prayers/4" key="arabic">اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ الْهَمِّ وَالْحُزْنِ وَالْعَجْزِ وَالْكَسَلِ وَالْبُخْلِ وَالْجُبْنِ وَضَلَعِ الدَّيْنِ وَغَلَبَةِ الرِّجَالِ</p>
+                        <p class="transliteration"  url="/prayers/4" key="transliteration">
+                            Allahumma innee a3uzubika min alham wa alhuzn wa al3ajz wa alkusl wa albukhl wa aljubn wa galbah aldayn wa Galbah alrijaal.
+                        </p>
+        <p class="translation"  url="/prayers/4" key="translation">O Allah, I take refuge in You from anxiety and sorrow, weakness and laziness, miserliness and cowardice, the burden of debts and from being over powered by men.</p>
+
+
+            <section class="audio-box" src="">
+                <audio controls>
+                <source src="" type="audio/mpeg">
+                </audio><br>
+                <a href="" class="hidden" data-toggle="download" data-placement="bottom" title="Download Du'a Audio Clip"><br><i class="fa fa-download fa-4x" style="margin-bottom: 0.1em;"></i></a><br>
+            </section>
+            
+
+
+            <br>
+                <i class="fa fa-heart fa-5x toggle-heart" data-id="4"></i>
+                <p>910 
+                    likes
+                </p><br>
+
+                <div class='social-share-button' data-title='O Allah, I take refuge in You from anxiety and sorrow, weakness and laziness, miserliness and cowardice, the burden of debts and from being over powered by men.
+اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ الْهَمِّ وَالْحُزْنِ وَالْعَجْزِ وَالْكَسَلِ وَالْبُخْلِ وَالْجُبْنِ وَضَلَعِ الدَّيْنِ وَغَلَبَةِ الرِّجَالِ' data-img=''
+data-url='https://www.sujood.co/#id=4' data-desc='' data-via=''>
+<a rel="nofollow " data-site="twitter" class="ssb-icon ssb-twitter" onclick="return SocialShareButton.share(this);" title="Share to Twitter" href="#"></a>
+<a rel="nofollow " data-site="facebook" class="ssb-icon ssb-facebook" onclick="return SocialShareButton.share(this);" title="Share to Facebook" href="#"></a>
+<a rel="nofollow " data-site="google_plus" class="ssb-icon ssb-google_plus" onclick="return SocialShareButton.share(this);" title="Share to Google+" href="#"></a>
+<a rel="nofollow " data-site="tumblr" class="ssb-icon ssb-tumblr" onclick="return SocialShareButton.share(this);" title="Share to Tumblr" href="#"></a>
+<a rel="nofollow " data-site="pinterest" class="ssb-icon ssb-pinterest" onclick="return SocialShareButton.share(this);" title="Share to Pinterest" href="#"></a>
+<a rel="nofollow " data-site="email" class="ssb-icon ssb-email" onclick="return SocialShareButton.share(this);" title="Share to Email" href="#"></a>
+</div>
+
+</div>
+
+      <div class="prayer" data-id="33" category="aroused">
+
+    
+    
+        <h1 class="prayer-title"  url="/prayers/33" key="title">
+            &quot;Shield Me&quot;
+        </h1>
+        
+        <p class="arabic"  url="/prayers/33" key="arabic">
+اللهم جنبني الهوى، و جنبني النظر الحرام، و جنبني المعاصي، و  جنبني الفتن يا رب العالمين</p>
+                        <p class="transliteration"  url="/prayers/33" key="transliteration">
+                            Allahumma Jannibnee alhawaa, wa Jannibnee AlNaDr alHaraam
+                        </p>
+        <p class="translation"  url="/prayers/33" key="translation">Oh Allah shield me from harmful desires! Shield me from looking at the  prohibited! Shield me from my rebellions! And shield me from trials oh Lord of the Universes!</p>
+
+
+            <section class="audio-box" src="">
+                <audio controls>
+                <source src="" type="audio/mpeg">
+                </audio><br>
+                <a href="" class="hidden" data-toggle="download" data-placement="bottom" title="Download Du'a Audio Clip"><br><i class="fa fa-download fa-4x" style="margin-bottom: 0.1em;"></i></a><br>
+            </section>
+            
+
+
+            <br>
+                <i class="fa fa-heart fa-5x toggle-heart" data-id="33"></i>
+                <p>461 
+                    likes
+                </p><br>
+
+                <div class='social-share-button' data-title='Oh Allah shield me from harmful desires! Shield me from looking at the  prohibited! Shield me from my rebellions! And shield me from trials oh Lord of the Universes!
+
+اللهم جنبني الهوى، و جنبني النظر الحرام، و جنبني المعاصي، و  جنبني الفتن يا رب العالمين' data-img=''
+data-url='https://www.sujood.co/#id=33' data-desc='' data-via=''>
+<a rel="nofollow " data-site="twitter" class="ssb-icon ssb-twitter" onclick="return SocialShareButton.share(this);" title="Share to Twitter" href="#"></a>
+<a rel="nofollow " data-site="facebook" class="ssb-icon ssb-facebook" onclick="return SocialShareButton.share(this);" title="Share to Facebook" href="#"></a>
+<a rel="nofollow " data-site="google_plus" class="ssb-icon ssb-google_plus" onclick="return SocialShareButton.share(this);" title="Share to Google+" href="#"></a>
+<a rel="nofollow " data-site="tumblr" class="ssb-icon ssb-tumblr" onclick="return SocialShareButton.share(this);" title="Share to Tumblr" href="#"></a>
+<a rel="nofollow " data-site="pinterest" class="ssb-icon ssb-pinterest" onclick="return SocialShareButton.share(this);" title="Share to Pinterest" href="#"></a>
+<a rel="nofollow " data-site="email" class="ssb-icon ssb-email" onclick="return SocialShareButton.share(this);" title="Share to Email" href="#"></a>
+</div>
+
+</div>
+
+      <div class="prayer" data-id="12" category="depressed">
+
+    
+    
+        <h1 class="prayer-title"  url="/prayers/12" key="title">
+            &quot;To Light&quot;
+        </h1>
+        
+        <p class="arabic"  url="/prayers/12" key="arabic">اللهم اخرجني من الظلمات إلى النور </p>
+                        <p class="transliteration"  url="/prayers/12" key="transliteration">
+                            Allahumma Akhrijnee min aldulumaat ilaa alnur
+                        </p>
+        <p class="translation"  url="/prayers/12" key="translation">Oh Allah take me out of darkness and into the light.</p>
+
+
+            <section class="audio-box" src="">
+                <audio controls>
+                <source src="" type="audio/mpeg">
+                </audio><br>
+                <a href="" class="hidden" data-toggle="download" data-placement="bottom" title="Download Du'a Audio Clip"><br><i class="fa fa-download fa-4x" style="margin-bottom: 0.1em;"></i></a><br>
+            </section>
+            
+
+
+            <br>
+                <i class="fa fa-heart fa-5x toggle-heart" data-id="12"></i>
+                <p>418 
+                    likes
+                </p><br>
+
+                <div class='social-share-button' data-title='Oh Allah take me out of darkness and into the light.
+اللهم اخرجني من الظلمات إلى النور ' data-img=''
+data-url='https://www.sujood.co/#id=12' data-desc='' data-via=''>
+<a rel="nofollow " data-site="twitter" class="ssb-icon ssb-twitter" onclick="return SocialShareButton.share(this);" title="Share to Twitter" href="#"></a>
+<a rel="nofollow " data-site="facebook" class="ssb-icon ssb-facebook" onclick="return SocialShareButton.share(this);" title="Share to Facebook" href="#"></a>
+<a rel="nofollow " data-site="google_plus" class="ssb-icon ssb-google_plus" onclick="return SocialShareButton.share(this);" title="Share to Google+" href="#"></a>
+<a rel="nofollow " data-site="tumblr" class="ssb-icon ssb-tumblr" onclick="return SocialShareButton.share(this);" title="Share to Tumblr" href="#"></a>
+<a rel="nofollow " data-site="pinterest" class="ssb-icon ssb-pinterest" onclick="return SocialShareButton.share(this);" title="Share to Pinterest" href="#"></a>
+<a rel="nofollow " data-site="email" class="ssb-icon ssb-email" onclick="return SocialShareButton.share(this);" title="Share to Email" href="#"></a>
+</div>
+
+</div>
+
+      <div class="prayer" data-id="29" category="jealous, envious, irritated">
+
+    
+    
+        <h1 class="prayer-title"  url="/prayers/29" key="title">
+            &quot;No Hard Feelings&quot;
+        </h1>
+        
+        <p class="arabic"  url="/prayers/29" key="arabic"> اللهم طهر قلبي من كل سوء ، اللهم طهر قلبي من كل ما يبغضك، اللهم طهر قلبي من كل غلٍ وحقدٍ وحسد وكبر</p>
+                        <p class="transliteration"  url="/prayers/29" key="transliteration">
+                            Allahumma Tahhir Qalbee min kulli suu, Allahumma Tahhir Qalbee min kulli maa yubaGGiDuk. Allahumma Tahhir Qalbee min kulli Gillin wa HiQdin wa Hasadin wa kibr.
+                        </p>
+        <p class="translation"  url="/prayers/29" key="translation">Oh Allah, clean away all forms of evil from my heart. Oh Allah, clean my heart and remove everything that displeases you. Oh Allah, clean my heart of all every form of bitterness, hard feelings, and jealousy.</p>
+
+
+            <section class="audio-box" src="">
+                <audio controls>
+                <source src="" type="audio/mpeg">
+                </audio><br>
+                <a href="" class="hidden" data-toggle="download" data-placement="bottom" title="Download Du'a Audio Clip"><br><i class="fa fa-download fa-4x" style="margin-bottom: 0.1em;"></i></a><br>
+            </section>
+            
+
+
+            <br>
+                <i class="fa fa-heart fa-5x toggle-heart" data-id="29"></i>
+                <p>250 
+                    likes
+                </p><br>
+
+                <div class='social-share-button' data-title='Oh Allah, clean away all forms of evil from my heart. Oh Allah, clean my heart and remove everything that displeases you. Oh Allah, clean my heart of all every form of bitterness, hard feelings, and jealousy.
+ اللهم طهر قلبي من كل سوء ، اللهم طهر قلبي من كل ما يبغضك، اللهم طهر قلبي من كل غلٍ وحقدٍ وحسد وكبر' data-img=''
+data-url='https://www.sujood.co/#id=29' data-desc='' data-via=''>
+<a rel="nofollow " data-site="twitter" class="ssb-icon ssb-twitter" onclick="return SocialShareButton.share(this);" title="Share to Twitter" href="#"></a>
+<a rel="nofollow " data-site="facebook" class="ssb-icon ssb-facebook" onclick="return SocialShareButton.share(this);" title="Share to Facebook" href="#"></a>
+<a rel="nofollow " data-site="google_plus" class="ssb-icon ssb-google_plus" onclick="return SocialShareButton.share(this);" title="Share to Google+" href="#"></a>
+<a rel="nofollow " data-site="tumblr" class="ssb-icon ssb-tumblr" onclick="return SocialShareButton.share(this);" title="Share to Tumblr" href="#"></a>
+<a rel="nofollow " data-site="pinterest" class="ssb-icon ssb-pinterest" onclick="return SocialShareButton.share(this);" title="Share to Pinterest" href="#"></a>
+<a rel="nofollow " data-site="email" class="ssb-icon ssb-email" onclick="return SocialShareButton.share(this);" title="Share to Email" href="#"></a>
+</div>
+
+</div>
+
+      <div class="prayer" data-id="28" category="grateful">
+
+    
+    
+        <h1 class="prayer-title"  url="/prayers/28" key="title">
+            &quot;How to Thank&quot;
+        </h1>
+        
+        <p class="arabic"  url="/prayers/28" key="arabic">اللهم إن شكرك نعمة، تستحق الشكر، فعلّمني كيف أشكرك ، الحمد لله كما ينبغى لجلال وجهك وعظيم سلطانك</p>
+                        <p class="transliteration"  url="/prayers/28" key="transliteration">
+                            Allahumma, inna shukruka ni3mah. TastaHiq ash-Shukr, fa 3allimanee kayfa ashkuruk. AlHamdulillah kamaa yambaGee li jalaal wajhik wa aZHeemi sulTaanik.
+                        </p>
+        <p class="translation"  url="/prayers/28" key="translation">Oh Allah thanking you is a blessing, you deserve all thankfulness. All praise is due to Allah the way He should his magnificence deserves to be praised. </p>
+
+
+            <section class="audio-box" src="">
+                <audio controls>
+                <source src="" type="audio/mpeg">
+                </audio><br>
+                <a href="" class="hidden" data-toggle="download" data-placement="bottom" title="Download Du'a Audio Clip"><br><i class="fa fa-download fa-4x" style="margin-bottom: 0.1em;"></i></a><br>
+            </section>
+            
+
+
+            <br>
+                <i class="fa fa-heart fa-5x toggle-heart" data-id="28"></i>
+                <p>173 
+                    likes
+                </p><br>
+
+                <div class='social-share-button' data-title='Oh Allah thanking you is a blessing, you deserve all thankfulness. All praise is due to Allah the way He should his magnificence deserves to be praised. 
+اللهم إن شكرك نعمة، تستحق الشكر، فعلّمني كيف أشكرك ، الحمد لله كما ينبغى لجلال وجهك وعظيم سلطانك' data-img=''
+data-url='https://www.sujood.co/#id=28' data-desc='' data-via=''>
+<a rel="nofollow " data-site="twitter" class="ssb-icon ssb-twitter" onclick="return SocialShareButton.share(this);" title="Share to Twitter" href="#"></a>
+<a rel="nofollow " data-site="facebook" class="ssb-icon ssb-facebook" onclick="return SocialShareButton.share(this);" title="Share to Facebook" href="#"></a>
+<a rel="nofollow " data-site="google_plus" class="ssb-icon ssb-google_plus" onclick="return SocialShareButton.share(this);" title="Share to Google+" href="#"></a>
+<a rel="nofollow " data-site="tumblr" class="ssb-icon ssb-tumblr" onclick="return SocialShareButton.share(this);" title="Share to Tumblr" href="#"></a>
+<a rel="nofollow " data-site="pinterest" class="ssb-icon ssb-pinterest" onclick="return SocialShareButton.share(this);" title="Share to Pinterest" href="#"></a>
+<a rel="nofollow " data-site="email" class="ssb-icon ssb-email" onclick="return SocialShareButton.share(this);" title="Share to Email" href="#"></a>
+</div>
+
+</div>
+
+      <div class="prayer" data-id="2" category="lonely">
+
+    
+    
+        <h1 class="prayer-title"  url="/prayers/2" key="title">
+            &quot;Don&#39;t leave me&quot;
+        </h1>
+        
+        <p class="arabic"  url="/prayers/2" key="arabic"> اللهُمَّ رَحْمَتَكَ أرجُو، فَلا تَكِلْنِي إلى نَفْسي طَرْفَةَ عَيْنٍ، وأصْلِحْ لي شَأني كُلَّهُ، لا إله إلا أنْتَ.</p>
+                        <p class="transliteration"  url="/prayers/2" key="transliteration">
+                            Allahumma Rahmataka Arjuu. Falaa takilnee ilaa nafsee Tarfata &#39;Ayn. Wa AsliH lee Sha&#39;nee kullahu, laa ilaah illa ant.
+                        </p>
+        <p class="translation"  url="/prayers/2" key="translation">O Allah, it is Your mercy that I hope for, so do not leave me in charge of my affairs even for a blink of an eye, and rectify for me all of my affairs. None has the right to be worshiped except You.
+</p>
+
+
+            <section class="audio-box" src="">
+                <audio controls>
+                <source src="" type="audio/mpeg">
+                </audio><br>
+                <a href="" class="hidden" data-toggle="download" data-placement="bottom" title="Download Du'a Audio Clip"><br><i class="fa fa-download fa-4x" style="margin-bottom: 0.1em;"></i></a><br>
+            </section>
+            
+
+
+            <br>
+                <i class="fa fa-heart fa-5x toggle-heart" data-id="2"></i>
+                <p>281 
+                    likes
+                </p><br>
+
+                <div class='social-share-button' data-title='O Allah, it is Your mercy that I hope for, so do not leave me in charge of my affairs even for a blink of an eye, and rectify for me all of my affairs. None has the right to be worshiped except You.
+
+ اللهُمَّ رَحْمَتَكَ أرجُو، فَلا تَكِلْنِي إلى نَفْسي طَرْفَةَ عَيْنٍ، وأصْلِحْ لي شَأني كُلَّهُ، لا إله إلا أنْتَ.' data-img=''
+data-url='https://www.sujood.co/#id=2' data-desc='' data-via=''>
+<a rel="nofollow " data-site="twitter" class="ssb-icon ssb-twitter" onclick="return SocialShareButton.share(this);" title="Share to Twitter" href="#"></a>
+<a rel="nofollow " data-site="facebook" class="ssb-icon ssb-facebook" onclick="return SocialShareButton.share(this);" title="Share to Facebook" href="#"></a>
+<a rel="nofollow " data-site="google_plus" class="ssb-icon ssb-google_plus" onclick="return SocialShareButton.share(this);" title="Share to Google+" href="#"></a>
+<a rel="nofollow " data-site="tumblr" class="ssb-icon ssb-tumblr" onclick="return SocialShareButton.share(this);" title="Share to Tumblr" href="#"></a>
+<a rel="nofollow " data-site="pinterest" class="ssb-icon ssb-pinterest" onclick="return SocialShareButton.share(this);" title="Share to Pinterest" href="#"></a>
+<a rel="nofollow " data-site="email" class="ssb-icon ssb-email" onclick="return SocialShareButton.share(this);" title="Share to Email" href="#"></a>
+</div>
+
+</div>
+
+      <div class="prayer" data-id="5" category="defeated, regretful">
+
+    
+    
+        <h1 class="prayer-title"  url="/prayers/5" key="title">
+            &quot;I messed up&quot;
+        </h1>
+        
+        <p class="arabic"  url="/prayers/5" key="arabic">اللهمّ إنّي ظلمت نفسي ظلماً كثيراً، ولا يغفر الذّنوب إلا أنت فاغفر لي مغفرة من عندك، وارحمني إنّك أنت الغفور الرّحيم</p>
+                        <p class="transliteration"  url="/prayers/5" key="transliteration">
+                            Allahumma Innee Dhalamtu nafsee Dhulman Kaseeran, Wa la yagfiru alZunuba illaa anta, fa igfirlee magfiratan min 3ndik, Wa Arhimnee, Innaka ant algafuur arraheem.
+                        </p>
+        <p class="translation"  url="/prayers/5" key="translation">O Allah, I have been very unjust to myself and no one grants pardon against sin but You, therefore forgive me with Your forgiveness and have mercy on me. Surely, You are the forgiver, the Merciful.</p>
+
+
+            <section class="audio-box" src="">
+                <audio controls>
+                <source src="" type="audio/mpeg">
+                </audio><br>
+                <a href="" class="hidden" data-toggle="download" data-placement="bottom" title="Download Du'a Audio Clip"><br><i class="fa fa-download fa-4x" style="margin-bottom: 0.1em;"></i></a><br>
+            </section>
+            
+
+
+            <br>
+                <i class="fa fa-heart fa-5x toggle-heart" data-id="5"></i>
+                <p>299 
+                    likes
+                </p><br>
+
+                <div class='social-share-button' data-title='O Allah, I have been very unjust to myself and no one grants pardon against sin but You, therefore forgive me with Your forgiveness and have mercy on me. Surely, You are the forgiver, the Merciful.
+اللهمّ إنّي ظلمت نفسي ظلماً كثيراً، ولا يغفر الذّنوب إلا أنت فاغفر لي مغفرة من عندك، وارحمني إنّك أنت الغفور الرّحيم' data-img=''
+data-url='https://www.sujood.co/#id=5' data-desc='' data-via=''>
+<a rel="nofollow " data-site="twitter" class="ssb-icon ssb-twitter" onclick="return SocialShareButton.share(this);" title="Share to Twitter" href="#"></a>
+<a rel="nofollow " data-site="facebook" class="ssb-icon ssb-facebook" onclick="return SocialShareButton.share(this);" title="Share to Facebook" href="#"></a>
+<a rel="nofollow " data-site="google_plus" class="ssb-icon ssb-google_plus" onclick="return SocialShareButton.share(this);" title="Share to Google+" href="#"></a>
+<a rel="nofollow " data-site="tumblr" class="ssb-icon ssb-tumblr" onclick="return SocialShareButton.share(this);" title="Share to Tumblr" href="#"></a>
+<a rel="nofollow " data-site="pinterest" class="ssb-icon ssb-pinterest" onclick="return SocialShareButton.share(this);" title="Share to Pinterest" href="#"></a>
+<a rel="nofollow " data-site="email" class="ssb-icon ssb-email" onclick="return SocialShareButton.share(this);" title="Share to Email" href="#"></a>
+</div>
+
+</div>
+
+      <div class="prayer" data-id="30" category="impatient, determined">
+
+    
+    
+        <h1 class="prayer-title"  url="/prayers/30" key="title">
+            &quot;The Courage to Step Forward&quot;
+        </h1>
+        
+        <p class="arabic"  url="/prayers/30" key="arabic">اللهم امنحني القوة لأقاوم نفسي، والشجاعة لأواجه ضعفي، واليقين لأتقبل قدري، والرضا ليرتاح عقلي، والفهم ليطمئن قلبي</p>
+                        <p class="transliteration"  url="/prayers/30" key="transliteration">
+                            Allahumma imnaHnee alQuwwah li aQwaami nafseee, wa ash-Shujaa3ah li uwaajih da3fee, wa alYaqeeni li ataQabbal qadree, wa ar-riDaa li yartaah 3aQalee, wa alfahm li yaTmainna Qalbee
+                        </p>
+        <p class="translation"  url="/prayers/30" key="translation">Oh Allah! Grant me the strength to oppose myself, the courage to face my weakness, the conviction to accept my faith, the satisfaction of to relax my mind, and the understanding to reassure my heart.</p>
+
+
+            <section class="audio-box" src="">
+                <audio controls>
+                <source src="" type="audio/mpeg">
+                </audio><br>
+                <a href="" class="hidden" data-toggle="download" data-placement="bottom" title="Download Du'a Audio Clip"><br><i class="fa fa-download fa-4x" style="margin-bottom: 0.1em;"></i></a><br>
+            </section>
+            
+
+
+            <br>
+                <i class="fa fa-heart fa-5x toggle-heart" data-id="30"></i>
+                <p>348 
+                    likes
+                </p><br>
+
+                <div class='social-share-button' data-title='Oh Allah! Grant me the strength to oppose myself, the courage to face my weakness, the conviction to accept my faith, the satisfaction of to relax my mind, and the understanding to reassure my heart.
+اللهم امنحني القوة لأقاوم نفسي، والشجاعة لأواجه ضعفي، واليقين لأتقبل قدري، والرضا ليرتاح عقلي، والفهم ليطمئن قلبي' data-img=''
+data-url='https://www.sujood.co/#id=30' data-desc='' data-via=''>
+<a rel="nofollow " data-site="twitter" class="ssb-icon ssb-twitter" onclick="return SocialShareButton.share(this);" title="Share to Twitter" href="#"></a>
+<a rel="nofollow " data-site="facebook" class="ssb-icon ssb-facebook" onclick="return SocialShareButton.share(this);" title="Share to Facebook" href="#"></a>
+<a rel="nofollow " data-site="google_plus" class="ssb-icon ssb-google_plus" onclick="return SocialShareButton.share(this);" title="Share to Google+" href="#"></a>
+<a rel="nofollow " data-site="tumblr" class="ssb-icon ssb-tumblr" onclick="return SocialShareButton.share(this);" title="Share to Tumblr" href="#"></a>
+<a rel="nofollow " data-site="pinterest" class="ssb-icon ssb-pinterest" onclick="return SocialShareButton.share(this);" title="Share to Pinterest" href="#"></a>
+<a rel="nofollow " data-site="email" class="ssb-icon ssb-email" onclick="return SocialShareButton.share(this);" title="Share to Email" href="#"></a>
+</div>
+
+</div>
+
+      <div class="prayer" data-id="10" category="uneasy">
+
+    
+    
+        <h1 class="prayer-title"  url="/prayers/10" key="title">
+            &quot;Satisfaction Rain&quot;
+        </h1>
+        
+        <p class="arabic"  url="/prayers/10" key="arabic">اللهم أنزِل عليّ سكينة من عندك تشرح بها صدري و تحفظُ بها قلبي</p>
+                        <p class="transliteration"  url="/prayers/10" key="transliteration">
+                            Allahumma Anzil 3alay sakeenah min 3ndik tashraH bihaa Sadree wa tahfDH bihaa qalbee
+                        </p>
+        <p class="translation"  url="/prayers/10" key="translation">Oh Allah, descend upon me satisfaction that comes from you and open my chest and protect my heart with it.</p>
+
+
+            <section class="audio-box" src="">
+                <audio controls>
+                <source src="" type="audio/mpeg">
+                </audio><br>
+                <a href="" class="hidden" data-toggle="download" data-placement="bottom" title="Download Du'a Audio Clip"><br><i class="fa fa-download fa-4x" style="margin-bottom: 0.1em;"></i></a><br>
+            </section>
+            
+
+
+            <br>
+                <i class="fa fa-heart fa-5x toggle-heart" data-id="10"></i>
+                <p>203 
+                    likes
+                </p><br>
+
+                <div class='social-share-button' data-title='Oh Allah, descend upon me satisfaction that comes from you and open my chest and protect my heart with it.
+اللهم أنزِل عليّ سكينة من عندك تشرح بها صدري و تحفظُ بها قلبي' data-img=''
+data-url='https://www.sujood.co/#id=10' data-desc='' data-via=''>
+<a rel="nofollow " data-site="twitter" class="ssb-icon ssb-twitter" onclick="return SocialShareButton.share(this);" title="Share to Twitter" href="#"></a>
+<a rel="nofollow " data-site="facebook" class="ssb-icon ssb-facebook" onclick="return SocialShareButton.share(this);" title="Share to Facebook" href="#"></a>
+<a rel="nofollow " data-site="google_plus" class="ssb-icon ssb-google_plus" onclick="return SocialShareButton.share(this);" title="Share to Google+" href="#"></a>
+<a rel="nofollow " data-site="tumblr" class="ssb-icon ssb-tumblr" onclick="return SocialShareButton.share(this);" title="Share to Tumblr" href="#"></a>
+<a rel="nofollow " data-site="pinterest" class="ssb-icon ssb-pinterest" onclick="return SocialShareButton.share(this);" title="Share to Pinterest" href="#"></a>
+<a rel="nofollow " data-site="email" class="ssb-icon ssb-email" onclick="return SocialShareButton.share(this);" title="Share to Email" href="#"></a>
+</div>
+
+</div>
+
+      <div class="prayer" data-id="21" category="insecure">
+
+    
+    
+        <h1 class="prayer-title"  url="/prayers/21" key="title">
+            &quot;The potential within&quot;
+        </h1>
+        
+        <p class="arabic"  url="/prayers/21" key="arabic"> اللهم اجعلني أرى المواهب و نقاط قوت الذين وضعته في نفسي</p>
+                        <p class="transliteration"  url="/prayers/21" key="transliteration">
+                            Allahumma ij3alnee araa almawaahib wa nuQaaT quwwat allazeena wada3tahu fee nafsee
+                        </p>
+        <p class="translation"  url="/prayers/21" key="translation">Oh Allah, make me see the talents and strengths you have put inside of me.</p>
+
+
+            <section class="audio-box" src="">
+                <audio controls>
+                <source src="" type="audio/mpeg">
+                </audio><br>
+                <a href="" class="hidden" data-toggle="download" data-placement="bottom" title="Download Du'a Audio Clip"><br><i class="fa fa-download fa-4x" style="margin-bottom: 0.1em;"></i></a><br>
+            </section>
+            
+
+
+            <br>
+                <i class="fa fa-heart fa-5x toggle-heart" data-id="21"></i>
+                <p>192 
+                    likes
+                </p><br>
+
+                <div class='social-share-button' data-title='Oh Allah, make me see the talents and strengths you have put inside of me.
+ اللهم اجعلني أرى المواهب و نقاط قوت الذين وضعته في نفسي' data-img=''
+data-url='https://www.sujood.co/#id=21' data-desc='' data-via=''>
+<a rel="nofollow " data-site="twitter" class="ssb-icon ssb-twitter" onclick="return SocialShareButton.share(this);" title="Share to Twitter" href="#"></a>
+<a rel="nofollow " data-site="facebook" class="ssb-icon ssb-facebook" onclick="return SocialShareButton.share(this);" title="Share to Facebook" href="#"></a>
+<a rel="nofollow " data-site="google_plus" class="ssb-icon ssb-google_plus" onclick="return SocialShareButton.share(this);" title="Share to Google+" href="#"></a>
+<a rel="nofollow " data-site="tumblr" class="ssb-icon ssb-tumblr" onclick="return SocialShareButton.share(this);" title="Share to Tumblr" href="#"></a>
+<a rel="nofollow " data-site="pinterest" class="ssb-icon ssb-pinterest" onclick="return SocialShareButton.share(this);" title="Share to Pinterest" href="#"></a>
+<a rel="nofollow " data-site="email" class="ssb-icon ssb-email" onclick="return SocialShareButton.share(this);" title="Share to Email" href="#"></a>
+</div>
+
+</div>
+
+      <div class="prayer" data-id="14" category="curious">
+
+    
+    
+        <h1 class="prayer-title"  url="/prayers/14" key="title">
+            &quot;I can&#39;t trust myself&quot;
+        </h1>
+        
+        <p class="arabic"  url="/prayers/14" key="arabic">اللهم إني أعوذ بك من شر سمعي، ومن شر بصري، ومن شر لساني، ومن شر قلبي، ومن شر منيي</p>
+                        <p class="transliteration"  url="/prayers/14" key="transliteration">
+                            Allahumma innee a3uzubika min sharri sam3ee, wa min sharri baSaree, wa min sharri lisaanee, wa min sharri qalbee, wa min sharri minnee.
+                        </p>
+        <p class="translation"  url="/prayers/14" key="translation">Oh Allah, I seek protection in you from the evil of my hearing, from the evil of my sight, from the evil of my tongue, from the evil of my heart, and from the evil of myself.</p>
+
+
+            <section class="audio-box" src="">
+                <audio controls>
+                <source src="" type="audio/mpeg">
+                </audio><br>
+                <a href="" class="hidden" data-toggle="download" data-placement="bottom" title="Download Du'a Audio Clip"><br><i class="fa fa-download fa-4x" style="margin-bottom: 0.1em;"></i></a><br>
+            </section>
+            
+
+
+            <br>
+                <i class="fa fa-heart fa-5x toggle-heart" data-id="14"></i>
+                <p>86 
+                    likes
+                </p><br>
+
+                <div class='social-share-button' data-title='Oh Allah, I seek protection in you from the evil of my hearing, from the evil of my sight, from the evil of my tongue, from the evil of my heart, and from the evil of myself.
+اللهم إني أعوذ بك من شر سمعي، ومن شر بصري، ومن شر لساني، ومن شر قلبي، ومن شر منيي' data-img=''
+data-url='https://www.sujood.co/#id=14' data-desc='' data-via=''>
+<a rel="nofollow " data-site="twitter" class="ssb-icon ssb-twitter" onclick="return SocialShareButton.share(this);" title="Share to Twitter" href="#"></a>
+<a rel="nofollow " data-site="facebook" class="ssb-icon ssb-facebook" onclick="return SocialShareButton.share(this);" title="Share to Facebook" href="#"></a>
+<a rel="nofollow " data-site="google_plus" class="ssb-icon ssb-google_plus" onclick="return SocialShareButton.share(this);" title="Share to Google+" href="#"></a>
+<a rel="nofollow " data-site="tumblr" class="ssb-icon ssb-tumblr" onclick="return SocialShareButton.share(this);" title="Share to Tumblr" href="#"></a>
+<a rel="nofollow " data-site="pinterest" class="ssb-icon ssb-pinterest" onclick="return SocialShareButton.share(this);" title="Share to Pinterest" href="#"></a>
+<a rel="nofollow " data-site="email" class="ssb-icon ssb-email" onclick="return SocialShareButton.share(this);" title="Share to Email" href="#"></a>
+</div>
+
+</div>
+
+</section>
+
+
+
+
+<script>
+  // $(function(){
+  //
+  //   var $container = $('#masonry');
+  //
+  //   $container.imagesLoaded( function(){
+  //     $container.masonry({
+  //       itemSelector : '.masonryImage'
+  //     });
+  //   });
+  //
+  // });
+</script>
+
+<script>
+   $('.switch-checkbox').change(function() {
+     if (this.checked) {
+       $(".prayers-section").hide();
+       $(".details-section").removeClass('hidden').show();
+
+       $(".details-switch").removeClass('grey');
+       $(".prayers-switch").addClass('grey');
+
+       if ($("body").attr("masonry_made") == "done"){
+       
+       } else {
+        makeMason();
+        makeSlick();
+       }
+       $("body").attr("masonry_made", "done")
+     } else {
+       $(".prayers-section").show();
+       $(".details-section").hide();
+
+       $(".details-switch").addClass('grey');
+       $(".prayers-switch").removeClass('grey');
+     }
+   })
+
+   function fetchPosts(){
+    // $(".masonry").empty()
+
+    // $.ajax({
+    //     url: "/posts/fetch/",
+    //     type: 'GET',
+    //     dataType: 'json', // added data type
+    //     success: function(res) {
+    //         // console.log(res);
+    //         $.each(res, function(key,post) {
+              
+    //           $(".masonry").append(`
+    //             <figure class="masonry-brick" data-id="`+post.id+`">
+    //             <img src="`+post.cover_image+`" alt="Masonry Brick #`+post.id+`" class="masonry-img">
+    //             <span class="brick-title">`+post.title+`</span>
+    //             </figure>
+    //             `)
+
+    //         }); 
+    //     }
+    // });
+
+    // makeMason();
+   }
+
+   function makeMason(){
+    function masonry(grid, gridCell, gridGutter, dGridCol, tGridCol, mGridCol) {
+      var g = document.querySelector(grid),
+          gc = document.querySelectorAll(gridCell),
+          gcLength = gc.length,
+          gHeight = 0,
+          i;
+      
+      for(i=0; i<gcLength; ++i) {
+        gHeight+=gc[i].offsetHeight+parseInt(gridGutter);
+      }
+      
+      if(window.screen.width >= 1024)
+        g.style.height = gHeight/dGridCol + gHeight/(gcLength+1) + "px";
+      else if(window.screen.width < 1024 && window.screen.width >= 768)
+        g.style.height = gHeight/tGridCol + gHeight/(gcLength+1) + "px";
+      else
+        g.style.height = gHeight/mGridCol + gHeight/(gcLength+1) + "px";
+    }
+
+    var masonryGrid = document.querySelector('.masonry');
+    masonryGrid.insertAdjacentHTML("afterend", "<div class='masonry-preloader'>Loading...</div>");
+    var masonryPreloader = document.querySelector('.masonry-preloader');
+
+    ["resize", "load"].forEach(function(event) {
+      // Adding little preloader information
+      masonryGrid.style.display="none";
+          masonryGrid.style.display="flex";
+          masonryPreloader.style.display="none";
+          // A masonry grid with 8px gutter, with 3 columns on desktop, 2 on tablet, and 1 column on mobile devices.
+          masonry(".masonry", ".masonry-brick", 8, 3, 2, 1);
+          console.log("Loaded");
+    });
+}
+
+function makeSlick(){
+  $('.responsive').slick({
+    dots: true,
+    infinite: false,
+    speed: 300,
+    slidesToShow: 4,
+    slidesToScroll: 4,
+    prevArrow: "",
+    nextArrow: "",
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ]
+  });
+}
+
+
+const urlParams = new URLSearchParams(window.location.search);
+changeCategory(urlParams.get('tags'))
+
+params = window.location.hash;
+if (params) {
+  var items = window.location.hash.substring(1); //Puts hash in variable, and removes the # character
+  // hash found
+  items = items.split("&")
+  
+  hash = {}
+
+  $.each(items, function(index, item){
+    hash[item.split("=")[0]] = decodeURIComponent(item.split("=")[1])
+
+  })
+  console.log(hash)
+  
+  if (hash["emotion"]) {
+    $("#tags").val(hash["emotion"])
+    changeCategory(hash["emotion"])
+  }
+
+}
+
+function changeCategory(val){
+  // alert(val)
+  // link = window.location.href.split("/prayers")[0] + "prayers?utf8=✓&tags="+val
+  // window.location = link
+
+  // console.log(window.location.href.split("/prayers")[0] + "/prayers?utf8=✓&tags="+val)
+    var prayers = $(".prayer")
+    if ((val == "") || val == undefined) {
+        prayers.show();
+        return;
+    }
+
+    //hide all the rows
+    prayers.hide();
+    
+    $(".prayer").each(function(){
+      console.log($(this).attr("category"))
+      if ($(this).attr("category").indexOf(val) >= 0) {
+        // console.log(val, $(this).attr("category"))
+        $(this).show()
+      } else {
+        // console.log(val, $(this).attr("category"))
+      }
+    })
+
+    $(".social-share-button").each(function(){
+      id = $(this).closest(".prayer").attr('data-id')
+      link = `https://www.sujood.co/#id=${id}&emotion=${val}`
+      $(this).attr("data-url", link)
+    })
+
+    // window.location = location + `/#emotion=${val}`
+    window.location.hash = `#emotion=${val}`
+
+
+
+
+}
+
+
+</script>
+
+
+
+
+
+<br>
+            </div>
+                  
+            <!--Start of Tawk.to Script-->
+
+
+            <script type="text/javascript">
+              var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+              (function(){
+              var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+              s1.async=true;
+              s1.src='https://embed.tawk.to/5d41505b7d27204601c88811/default';
+              s1.charset='UTF-8';
+              s1.setAttribute('crossorigin','*');
+              s0.parentNode.insertBefore(s1,s0);
+              })();
+            </script>
+            <!--End of Tawk.to Script-->
+
+            <style>
+              .follow-instagram {
+                max-width: 13vw;
+                position: fixed;
+                bottom: 24px;
+                left: 24px;
+              }
+
+              .follow-instagram img {
+                max-width:  100%;
+              }
+            </style>
+
+            <a href="https://www.instagram.com/iqra.life" target="_blank" class="follow-instagram">
+              <img src="/assets/instagram-41be6acc04a36c0b389f47e1379e5365e8ce6da85cde5e5ebe7ca13f39f1df77.png" alt="">
+            </a>
+
+            <style>
+    .projects-hub {
+        list-style: none;
+        padding: 0;
+        position: fixed;
+        left: 24px;
+        bottom: 80px;
+
+        /* max-width: 10rem; */
+        max-width: 12rem;
+        color: #f7eafc;
+        font-size: 1.5rem;
+    }
+
+    .projects-hub li {
+        padding: 10px;
+        font-size: 20px;
+        font-family: 'Oswald';
+        line-height: normal;
+        border-left: 4px solid;
+        margin-bottom: 10px;
+    }
+
+    .projects-hub img {
+        max-width: 5em;
+    }
+
+    .projects-hub small {
+        font-size: 14px;
+        display: block;
+    }
+
+</style>
+
+
+<aside >
+    <ul class="projects-hub">
+        <li class="hidden">
+            <a href="https://www.rerecite.com" target="_blank" class="clean-a">
+                <img src="https://www.rerecite.com/assets/logo-2-c95374d02edc99aa04492a4ea15afa433f74f25bbe8dc84513676ee5e3c032c2.png" alt="">
+            
+            <small>Learn to Recite Arabic</small>
+            </a>
+        </li>
+        <li>
+            <a href="https://www.natadarrab.com" target="_blank" class="clean-a">
+                <img style="filter: invert(1);" src="https://www.natadarrab.com/assets/logosans-1af5e1886e7e3044e775b73609559e1a113834a14480332bc27ab677f1ccf06d.png" alt="">
+            
+            <small>Understand the Qur'an, unbiased</small>
+            </a>
+        </li>
+        <li class="hidden">
+            <a href="https://www.yasbahoon.com" target="_blank" class="clean-a">
+                <img style="filter: brightness(3.5);" src="https://www.yasbahoon.com/assets/logo-73a25d74dcbe485ea893f4ff6be35b9e47fd624019d0d1f316bc663b47cae588.png" alt="">
+            
+            <small>Learn Employable Skills</small>
+            </a>
+        </li>
+    </ul>
+</aside>
+
+<script>
+</script>
+            
+            <footer class="text-center" style="color: #fff;">
+              &copy; 2020 Sujood.Co |  <a href="mailto:Nabeel@iqra.life" style="color: white;" target="_blank">Nabeel@Iqra.Life</a>
+            </footer>
+
+        </main>
+
+      </body>
+
+      
+
+      <script>
+
+$("body").on("click", ".toggle-heart", function(){
+
+    if (!$("body").attr("user-id")){
+        credsModal()
+        return
+    }
+
+    id = $(this).attr("data-id")
+    heart = $(this)
+    $.ajax({
+        type: "POST",
+        dataType: "json",
+        url: '/favorite_prayers',
+        contentType: 'application/json',
+        data: JSON.stringify({ 
+            id: id,
+            _method:'post' 
+        }),
+        success: function(res){
+            console.log(res)
+            heart.toggleClass("hearted")
+        }
+    })
+
+})
+
+</script>
+      <style>
+  #signUpModal {
+    font-family: "Oswald", sans-serif;
+    text-align: left;
+  }
+  
+
+  #signUpModal .modal-content {
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: #fff;
+  }
+
+  #signUpModal .modal-header {
+    background: #1488CC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: block;
+    border: 0;
+  }
+
+  #signUpModal .modal-title {
+    text-align: center;
+    font-size: 34px;
+  }
+
+  #signUpModal .modal-body {
+    padding: 20px;
+  }
+
+  #signUpModal label {
+    display: inline-block;
+    margin: 0.5rem 0;
+    font-size: 24px;
+  }
+
+  #signUpModal input {
+    padding: 1rem;
+    font-size: 24px;
+    border-radius: 0;
+    border: 0;
+    background: #252729;
+    color: #fff;
+  }
+
+  #signUpModal input:focus {
+    background: #9d1e4a;
+  }
+
+  #signUpModal .modal-body {
+
+  }
+
+  #signUpModal .submit-user-sign-up {
+
+  }
+
+  /**/
+  #signUpModal .su-modal-navs {
+    text-align: center;
+  }
+  #signUpModal .su-modal-navs > div {
+    display: inline-block;
+    padding: 10px;
+    height: auto;
+    width: 80px;
+    cursor: pointer;
+  }
+
+  #signUpModal .su-modal-navs > div:hover {
+    padding: 7px;
+    border: 3px solid #a13bff;
+  }
+
+  #signUpModal .su-modal-navs img {
+    width: 100%;
+  }
+
+  /**/
+  .sales-creds .error {
+    display: block;
+    font-size: 16px;
+    background: #ea4335;
+    padding: 10px;
+  }
+  
+  .modal-title {
+    position: relative;
+  }
+
+  .instead {
+    position: absolute;
+    right: -101px;
+    /* background: #1487cc; */
+    padding: 10px;
+    color: #ffe085;
+    top: 18px;
+    font-size: 19px;
+    cursor: pointer;
+  }
+
+  .instead:hover {
+    color: #000;
+    background: #ffe085;
+  }
+
+</style>
+
+<!-- Modal -->
+<div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="signUpModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="modal-title" id="signUpModalLabel">Sign In/Up!</div>
+        <p class="text-center">This Feature is for Signed In Users Only</p>
+      </div>
+      <div class="modal-body">
+  
+        <div class="sales-creds">
+          
+          <label title="email">
+            Email:
+          </label>
+          <input type="text" class="form-control required" title="email" helper="Username"  placeholder="Enter Username...">
+          <label title="password">
+            Password:
+          </label>
+          <input type="password" class="form-control required" title="password" helper="Password" placeholder="Enter Password...">
+          
+          
+          <label title="password_confirmation">
+            Confirm Password: (Leave if Signing In)
+          </label>
+          <input type="password" class="form-control" title="password_confirmation" helper="Password Confirmation" placeholder="Re-Enter Password...">
+          
+          <br>
+          <div class="btn btn-lg btn-block btn-outline-primary submit-user-sign-up">
+            Sign In/Up
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  function credsModal(){
+    $("#signUpModal").modal("show")
+  }
+
+  $("body").on("click", ".submit-user-sign-up", function(){
+    
+    $(".sales-creds .error").remove()
+
+    hash = {}
+    hash["_method"] = "post"
+
+    ready = true
+    $(".sales-creds input.required").each(function(){
+      if ($(this).val().length < 1) {
+        helper = $(this).attr("helper")
+        title = $(this).attr("title")
+        $(".sales-creds label[title='"+title+"']").append(
+              `<span class="error">Fill in this field!</span>`)
+        ready = false
+      } else {
+        hash[$(this).attr("title")] = $(this).val()
+      }
+    })
+
+    console.log(hash)
+
+  if (ready == true) {
+    
+    $.ajax({
+        type: "POST",
+        dataType: "json",
+        url: '/v1/make_user',
+        contentType: 'application/json',
+        data: JSON.stringify(hash),
+        success: function(res){
+         console.log(res)
+         user = res["user"]
+         swal = res["swal"]
+
+         if (user) {
+          $("body").attr("user-id", user["id"])
+          $(".non-users").hide()
+          $(".users-only").show()
+          $("#user span").html(user["email"])
+
+          $("#signUpModal").modal("hide")
+          Swal.fire({
+            icon: 'success',
+            title: swal["title"],
+            text: swal["text"],
+          })
+
+            
+
+         } else {
+          $.each(res["error"], function(index, item){
+            msg = ""
+
+            $.each(item, function(index, item){
+              msg += item
+            })
+
+            $(".sales-creds label[title='"+index+"']").append(
+              `<span class="error">`+msg+`</span>`)
+
+          })
+         }
+        }
+    })
+
+  } else {
+
+  }
+
+
+
+
+
+  })
+
+
+
+
+</script>
+
+<script>
+
+
+</script>
+
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/0.1.9/slideout.min.js"></script>
+
+      <script type="text/javascript">
+        $(document).ready(function(){
+            $('[data-toggle]').tooltip();
+        });
+      </script>
+</html>
